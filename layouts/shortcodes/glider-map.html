@@ -1,0 +1,160 @@
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+
+<div class="flex justify-center w-full">
+  <div 
+    id="gliderMap" 
+    class="rounded-xl shadow-lg border border-border z-0" 
+    style="height: 600px; width: 100%; min-width: 100%;">
+  </div>
+</div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="https://unpkg.com/lucide@latest"></script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    // --- 1. Helper Function: Calculate Bearing ---
+    function getBearing(lat1, lon1, lat2, lon2) {
+      const lat1Rad = lat1 * Math.PI / 180;
+      const lat2Rad = lat2 * Math.PI / 180;
+      const dLon = (lon2 - lon1) * Math.PI / 180;
+
+      const y = Math.sin(dLon) * Math.cos(lat2Rad);
+      const x = Math.cos(lat1Rad) * Math.sin(lat2Rad) -
+                Math.sin(lat1Rad) * Math.cos(lat2Rad) * Math.cos(dLon);
+      
+      const bearing = (Math.atan2(y, x) * 180 / Math.PI + 360) % 360;
+      return bearing;
+    }
+
+    // --- Updated Initialize Map ---
+    const map = L.map('gliderMap', {
+        zoomControl: false // Disable the default zoom control
+    }).setView([-37.4, 173.8], 8);
+
+    // Add it back to a different corner: 'topright', 'bottomleft', or 'bottomright'
+    L.control.zoom({
+        position: 'topleft'
+    }).addTo(map);
+
+    // Add a scale bar to the bottom left
+    L.control.scale({
+        metric: true,
+        imperial: false,
+        position: 'bottomleft'
+    }).addTo(map);
+
+    // --- 3. Tiles & Dark Mode Logic ---
+    const lightTiles = 'https://tiles.stadiamaps.com/tiles/osm_bright/{z}/{x}/{y}{r}.png';
+    const darkTiles = 'https://tiles.stadiamaps.com/tiles/osm_bright/{z}/{x}/{y}{r}.png';
+
+    const tileLayer = L.tileLayer(lightTiles, {
+      minZoom: 0,
+      maxZoom: 20,
+      attribution: '&copy; Stadia Maps, &copy; OpenMapTiles, &copy; OpenStreetMap'
+    }).addTo(map);
+
+    function updateTheme() {
+      const isDark = document.documentElement.classList.contains('dark') || document.body.classList.contains('dark');
+      tileLayer.setUrl(isDark ? darkTiles : lightTiles);
+    }
+
+    // Watch for theme changes
+    const observer = new MutationObserver(updateTheme);
+    observer.observe(document.documentElement, { attributes: true, attributeFilter: ['class'] });
+    updateTheme(); // Run once on load
+
+    // --- 4. Define Glider Icon ---
+    const gliderIcon = L.divIcon({
+      className: 'custom-div-icon', 
+      html: `
+        <div class="glider-wrapper" style="color: #000000; transition: transform 0.5s ease-in-out; filter: drop-shadow(0px 1px 1px rgba(0,0,0,0.5));">
+          <i data-lucide="plane" fill= #FFD22E style="width: 32px; height: 32px;"></i>
+        </div>`,
+      iconSize: [32, 32],
+      iconAnchor: [16, 16]
+    });
+
+    // --- 5. Setup Track & Marker ---
+    let trackPath = L.polyline([], {
+      color: '#002F73', 
+      weight: 4,
+      dashArray: '8, 8', 
+      lineJoin: 'round'
+    }).addTo(map);
+
+    // Define placeholder content
+    const popupContent = `
+      <div style="font-family: sans-serif; padding: 5px;">
+        <h3 style="margin: 0 0 5px 0; color: #333;">Glider Unit: 1</h3>
+        <p style="margin: 2px 0;"><strong>Status:</strong> Active</p>
+        <p style="margin: 2px 0;"><strong>Battery:</strong> 84%</p>
+        <p style="margin: 2px 0;"><strong>Last Update:</strong> Just now</p>
+      </div>
+    `;
+
+    let gliderMarker = L.marker([0, 0], {icon: gliderIcon, bubblingMouseEvents: true})
+      .addTo(map)
+      .bindPopup(popupContent); // This line adds the popup
+
+    // --- 6. Update Logic ---
+    async function updateGlider() {
+      try {
+        const mockData = {
+          lat: -37.9, 
+          lng: 173.6,
+          history: [
+            [-36.5, 173.4], [-37.0, 173.0], [-37.2, 173.6], [-37.4, 173.8], [-38.0, 173.8], [-37.9, 173.6]
+          ]
+        };
+
+        const history = mockData.history;
+        const newPos = [mockData.lat, mockData.lng];
+
+        // 1. Get the last two points (The most recent leg of the flight)
+        if (history.length >= 2) {
+          const prevPoint = history[history.length - 2]; // Second to last
+          const lastPoint = history[history.length - 1]; // Current
+
+          const lat1 = prevPoint[0];
+          const lon1 = prevPoint[1];
+          const lat2 = lastPoint[0];
+          const lon2 = lastPoint[1];
+
+          // 2. Calculate Bearing
+          const dLon = (lon2 - lon1) * Math.PI / 180;
+          const y = Math.sin(dLon) * Math.cos(lat2 * Math.PI / 180);
+          const x = Math.cos(lat1 * Math.PI / 180) * Math.sin(lat2 * Math.PI / 180) -
+                    Math.sin(lat1 * Math.PI / 180) * Math.cos(lat2 * Math.PI / 180) * Math.cos(dLon);
+          
+          let heading = (Math.atan2(y, x) * 180 / Math.PI + 360) % 360;
+
+          // 3. APPLY OFFSET 
+          // If the Lucide plane points UP, offset is 0. 
+          // If it points UP-RIGHT, offset might be -45.
+          const iconOffset = -45; 
+          const finalRotation = heading + iconOffset;
+
+          // 4. Apply to Icon
+          const iconElement = gliderMarker.getElement();
+          if (iconElement) {
+            const wrapper = iconElement.querySelector('.glider-wrapper');
+            if (wrapper) {
+              wrapper.style.transform = `rotate(${finalRotation}deg)`;
+            }
+          }
+        }
+
+        gliderMarker.setLatLng(newPos);
+        trackPath.setLatLngs(history);
+        lucide.createIcons();
+
+      } catch (error) {
+        console.error("Error:", error);
+      }
+    }
+
+    updateGlider();
+    setInterval(updateGlider, 30000);
+  });
+</script>

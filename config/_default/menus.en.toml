@@ -1,0 +1,45 @@
+############# English navigation ##############
+
+# main menu
+[[main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[main]]
+name = "About"
+url = "/about"
+weight = 2
+
+[[main]]
+name = "Meet the Team"
+url = "/authors"
+weight = 3
+
+[[main]]
+name = "Project Updates"
+url = "/blog"
+weight = 4
+
+[[main]]
+name = "Track the Glider"
+url = "/glider"
+weight = 5
+
+# footer menu
+[[footer]]
+name = "Copyright"
+url = "/https://www.auckland.ac.nz/en/copyright.html"
+weight = 1
+
+[[footer]]
+name = "Privacy"
+url = "https://www.auckland.ac.nz/en/privacy.html"
+weight = 2
+
+[[footer]]
+name = "Disclaimer"
+url = "https://www.auckland.ac.nz/en/disclaimer.html"
+weight = 3
+
+

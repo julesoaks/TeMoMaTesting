@@ -1,0 +1,71 @@
+{{ define "main" }}
+
+  <section class="section-sm">
+    <div class="container">
+      <div class="row items-center">
+        <div class="md:col-7 mb-8 md:mb-0">
+          <h2 class="h3 mb-6">{{ .Title }}</h2>
+          <div class="content text-lg">
+            {{ .Content }}
+          </div>
+        </div>
+        <div class="md:col-5">
+          {{ partial "image" (dict "Src" .Params.image "Context" .Page "Alt" .Title "Class" "rounded-lg shadow w-full" "Size" "500x") }}
+        </div>
+      </div>
+    </div>
+  </section>
+
+  {{ with .Params.partners }}
+  <section class="section-sm bg-gradient">
+    <div class="container">
+      <div class="row items-center">
+        <div class="md:col-7 order-2 md:order-1">
+          <div class="logo-glass-container">
+            {{ range .list }}
+              <div class="partner-logo">
+                {{ if .link }}<a href="{{ .link | safeURL }}" target="_blank">{{ end }}
+                  {{ partial "image" (dict "Src" .logo "Context" $.Page "Alt" .name "Class" "img-fluid" "Size" "x60") }}
+                {{ if .link }}</a>{{ end }}
+              </div>
+            {{ end }}
+          </div>
+        </div>
+        <div class="md:col-5 order-1 md:order-2 mb-8 md:mb-0 md:pl-12">
+          <h3 class="h4 mb-4">Our Partners</h3>
+          <p class="text-lg">
+            {{ .statement | markdownify }}
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  {{ end }}
+
+  {{ with .Params.supporting_orgs }}
+  <section class="section-sm">
+    <div class="container">
+      <div class="row items-center">
+        <div class="md:col-5 mb-8 md:mb-0 md:pr-12">
+          <h3 class="h4 mb-4">Supporting Organisations</h3>
+          <p class="text-lg">
+            {{ .statement | markdownify }}
+          </p>
+        </div>
+        <div class="md:col-7">
+          <div class="logo-glass-container">
+            {{ range .list }}
+              <div class="org-logo">
+                {{ if .link }}<a href="{{ .link | safeURL }}" target="_blank">{{ end }}
+                  {{ partial "image" (dict "Src" .logo "Context" $.Page "Alt" .name "Class" "img-fluid" "Size" "x60") }}
+                {{ if .link }}</a>{{ end }}
+              </div>
+            {{ end }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  {{ end }}
+
+{{ end }}

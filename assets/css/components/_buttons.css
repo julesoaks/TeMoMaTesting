@@ -1,0 +1,70 @@
+.btn-glass, .active-btn-glass, .btn-glass-sm {
+  background-color: var(--glass-bg-light) !important;
+  backdrop-filter: var(--glass-blur) !important;
+  box-shadow: var(--glass-shadow-light) !important;
+  -webkit-backdrop-filter: var(--glass-blur);
+  border: var(--glass-border) !important;
+  border-radius: 50px !important;
+  padding: 10px 25px;
+  transition: var(--transition-smooth) !important;
+  display: inline-block;
+  color: var(--glass-text-light) !important;
+  cursor: pointer;
+}
+
+.btn-glass:hover {
+  background-color: var(--glass-bg-light-hover) !important;
+  transform: var(--transformation-hover) !important;
+  box-shadow: var(--glass-shadow-light-hover) !important; 
+}
+
+.active-btn-glass { 
+  background-color: var(--glass-bg-light-active) !important;
+}
+
+.active-btn-glass:hover {
+  background-color: var(--glass-bg-light-active-hover) !important;
+}
+
+.dark .btn-glass, .dark .active-btn-glass, .dark .btn-glass-sm {
+  background-color: var(--glass-bg-dark) !important;
+  backdrop-filter: var(--glass-blur) !important;
+  box-shadow: var(--glass-shadow-dark) !important;
+  -webkit-backdrop-filter: var(--glass-blur);
+  border: var(--glass-border) !important;
+  border-radius: 50px !important;
+  padding: 10px 25px;
+  transition: var(--transition-smooth) !important;
+  display: inline-block;
+  color: var(--glass-text-dark) !important;
+}
+
+.dark .btn-glass:hover {
+  background-color: rgba(255, 255, 255, 0.4) !important;
+  transform: var(--transformation-hover) !important;
+  box-shadow: var(--glass-shadow-light-hover) !important; 
+}
+
+.dark .active-btn-glass {
+  background-color: var(--glass-bg-dark-active) !important;
+}
+
+.dark .active-btn-glass:hover {
+  background-color: var(--glass-bg-dark-active-hover) !important;
+}
+
+/* Specific variation for smaller/darker context (e.g., Read More) */
+.btn-glass-sm {
+  font-size: 0.85rem;
+  padding: 8px 20px;
+}
+
+.btn-glass-sm:hover {
+  background-color: var(--glass-bg-light-active-hover) !important;
+  box-shadow: var(--glass-shadow-light-hover) !important; 
+}
+
+.dark .btn-glass-sm:hover {
+  background-color: var(--glass-bg-dark-active-hover) !important;
+  box-shadow: var(--glass-shadow-dark-hover) !important; 
+}
