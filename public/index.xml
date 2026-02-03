@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Hugoplate</title>
+    <title>Te Moana Mahana</title>
     <link>//localhost:1313/</link>
-    <description>Recent content on Hugoplate</description>
+    <description>Recent content on Te Moana Mahana</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 04 Jan 2026 05:00:00 +0000</lastBuildDate>
@@ -62,7 +62,7 @@
       <link>//localhost:1313/authors/craig-stevens/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/authors/craig-stevens/</guid>
-      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque semper, nulla quis varius dignissim, mauris nunc imperdiet eros, quis malesuada ipsum augue vitae orci.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Craig Stevens is an oceanographer focused on the ocean’s extrema and how to measure them - the coldest/warmest, the southern-most, the fastest, the harshest waves.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Denise Fernandez</title>
@@ -104,7 +104,7 @@
       <link>//localhost:1313/authors/julian-drake/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/authors/julian-drake/</guid>
-      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque semper, nulla quis varius dignissim, mauris nunc imperdiet eros, quis malesuada ipsum augue vitae orci.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque semper, nulla quis varius dignissim, mauris nunc imperdiet eros, quis malesuada ipsum augue vitae orci.&#xA;Bonjour!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Karen Fisher</title>
@@ -125,6 +125,13 @@
       <link>//localhost:1313/authors/melissa-bowen/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/authors/melissa-bowen/</guid>
+      <description>&lt;p&gt;Melissa Bowen is the principal investigator of the project.&lt;/p&gt;&#xA;&lt;p&gt;She is a physical oceanographer who works on understanding the ocean from the global overturning circulation to estuaries. Over the last several decades, her main research focus is understanding how the ocean around New Zealand is changing.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mike Kittridge</title>
+      <link>//localhost:1313/authors/mike-kittridge/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/authors/mike-kittridge/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque semper, nulla quis varius dignissim, mauris nunc imperdiet eros, quis malesuada ipsum augue vitae orci.&lt;/p&gt;</description>
     </item>
     <item>

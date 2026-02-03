@@ -71,38 +71,31 @@
 
   <script>
     document.addEventListener('DOMContentLoaded', function() {
-      // FIX: Changed '.filter-btn' to '.btn-glass' to match your HTML
       const buttons = document.querySelectorAll('.btn-glass');
       const items = document.querySelectorAll('.author-item');
 
       buttons.forEach(button => {
         button.addEventListener('click', () => {
-          // 1. Toggle Active Styling
-          // FIX: Using 'active-btn-glass' to match your CSS variables
           buttons.forEach(btn => btn.classList.remove('active-btn-glass'));
           button.classList.add('active-btn-glass');
 
           const filterValue = button.getAttribute('data-filter');
 
-          // 2. Filter Logic
           items.forEach(item => {
             const itemGroups = item.getAttribute('data-groups').split(' ');
 
             if (filterValue === 'all' || itemGroups.includes(filterValue)) {
-              // Show item
               item.style.display = 'block';
-              // Small timeout allows the CSS transition to trigger
               setTimeout(() => { 
                 item.style.opacity = '1'; 
                 item.style.transform = 'translateY(0) scale(1)'; 
               }, 10);
             } else {
-              // Hide item
               item.style.opacity = '0';
               item.style.transform = 'translateY(10px) scale(0.95)';
               setTimeout(() => { 
                 item.style.display = 'none'; 
-              }, 300); // Matches the 0.3s transition in your CSS
+              }, 300); 
             }
           });
         });

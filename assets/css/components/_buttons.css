@@ -1,4 +1,4 @@
-.btn-glass, .active-btn-glass, .btn-glass-sm {
+.btn-glass, .active-btn-glass, .btn-glass-sm, .btn-glass-not-clickable {
   background-color: var(--glass-bg-light) !important;
   backdrop-filter: var(--glass-blur) !important;
   box-shadow: var(--glass-shadow-light) !important;
@@ -10,6 +10,10 @@
   display: inline-block;
   color: var(--glass-text-light) !important;
   cursor: pointer;
+}
+
+.btn-glass-not-clickable {
+  cursor: default;
 }
 
 .btn-glass:hover {
@@ -26,7 +30,7 @@
   background-color: var(--glass-bg-light-active-hover) !important;
 }
 
-.dark .btn-glass, .dark .active-btn-glass, .dark .btn-glass-sm {
+.dark .btn-glass, .dark .active-btn-glass, .dark .btn-glass-sm, .dark .btn-glass-not-clickable {
   background-color: var(--glass-bg-dark) !important;
   backdrop-filter: var(--glass-blur) !important;
   box-shadow: var(--glass-shadow-dark) !important;

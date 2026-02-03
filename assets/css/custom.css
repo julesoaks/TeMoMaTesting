@@ -7,6 +7,7 @@
 @import "components/_cards.css";
 @import "components/_logos.css";
 @import "components/_interactive.css";
+@import "components/_author-single.css"
 
 /* 3. Utilities & Layout */
 @import "components/_helpers.css";

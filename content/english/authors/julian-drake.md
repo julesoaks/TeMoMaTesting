@@ -15,3 +15,5 @@ interests:
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque semper, nulla quis varius dignissim, mauris nunc imperdiet eros, quis malesuada ipsum augue vitae orci.
+Bonjour!
+

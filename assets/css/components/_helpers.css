@@ -68,3 +68,22 @@
   z-index: 1; /* Keeps the main link on layer 1 */
   content: "";
 }
+
+.content p, 
+.content ul li, 
+.content ol li {
+  font-size: 1rem; /* This is the standard size for 'text-lg' */ 
+  line-height: 1.6;    /* Ensures the spacing is consistent */ 
+  margin-bottom: 1rem; }
+
+/* Force all text in 'content' blocks to be the same size */
+.content, .content p, .content li {
+    font-size: 1rem !important; /* This is the standard size for text-lg */
+    line-height: 1.6 !important;
+}
+
+.display-3 {
+  font-size: clamp(2.5rem, 6vw, 4rem); /* Responsive sizing: min 2.5rem, max 4rem */
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+}

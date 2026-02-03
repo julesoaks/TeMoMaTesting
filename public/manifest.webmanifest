@@ -1,6 +1,6 @@
 {
-  "name": "Hugoplate",
-  "short_name": "Hugoplate",
+  "name": "Te Moana Mahana",
+  "short_name": "Te Moana Mahana",
   "lang": "en-us",
   "display": "fullscreen",
   "orientation" : "portrait",
@@ -20,33 +20,33 @@
   
   "icons": [
     {
-      "src": "/images/favicon_hu_db42ce3c7fd96a51.png",
+      "src": "/images/faviconV4_hu_4185d13af06592d1.png",
       "sizes": "48x48",
       "type": "image/png"
     },
     {
-      "src": "/images/favicon_hu_6da3beef68f2a85b.png",
+      "src": "/images/faviconV4_hu_a7b30c0d424ca1a3.png",
       "sizes": "72x72",
       "type": "image/png"
     },
     {
-      "src": "/images/favicon_hu_734c7badd267288d.png",
+      "src": "/images/faviconV4_hu_9bdbbfd46ff7e91.png",
       "sizes": "96x96",
       "type": "image/png"
     },
     {
-      "src": "/images/favicon_hu_421f85b323dacbd7.png",
+      "src": "/images/faviconV4_hu_ba1e9ff2194c1bcf.png",
       "sizes": "144x144",
       "type": "image/png"
     },
     {
-      "src": "/images/favicon_hu_d77899eda58423ab.png",
+      "src": "/images/faviconV4_hu_e39e8bbd2f3345a.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "/images/favicon_hu_ef855c6a81ea75e0.png",
+      "src": "/images/faviconV4_hu_a43c3d42407b75d3.png",
       "sizes": "512x512",
       "type": "image/png"
     }

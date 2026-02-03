@@ -28,7 +28,8 @@
 
 /* Social Icons specific sizing */
 .social-icons li a {
-  display: flex;
+  display: flex !important;
+  visibility: visible !important;
   align-items: center;
   justify-content: center;
   width: 45px !important;

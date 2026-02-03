@@ -6,7 +6,7 @@
     {{ range $name, $items := site.Taxonomies.categories }}
       <li>
         <a href="{{ .Page.RelPermalink }}"
-           class="pill-glass flex justify-between items-center !rounded-xl !px-3 !py-2 {{ if (and (eq $.Page.Kind `term`) (eq $.Page.Type `categories`) (eq $.Page.Title .Page.Title)) }} active-btn-glass {{ end }}">
+           class="pill-glass flex justify-between items-center">
           <span class="text-sm font-medium">{{ .Page.Title }}</span>
           <span class="text-[10px] font-bold">
             {{ len $items }}

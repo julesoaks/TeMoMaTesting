@@ -3,22 +3,28 @@
 banner:
   title: "Welcome to Te Moana Mahana"
   content: "Impacts of ocean change on climate resilience for Aotearoa."
-  image: "/images/mitaBay.png" 
+  image: "/images/mitaBay.png"
   button: false
 
 # Features (Repurposed for Stats and About sections)
 features:
   - title: "About the Project"
     image: "/images/teamPhoto.png" # You can add a relevant image here
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed dolor mauris. Suspendisse in lorem in odio euismod malesuada. Sed vitae ligula lacus. Mauris vel massa dolor. Vestibulum posuere fringilla convallis."
+    content:
+      "Oceans affect everything around New Zealand, from local weather to the
+      productivity of our industries. Yet,
+      oceans in the region are changing significantly under climate change. We are a
+      team of oceanographers, atmospheric,
+      and social science experts who will assess:"
     bulletpoints:
-      - "Investigating climate resilience"
-      - "Focusing on Aotearoa's coastline"
-      - "Collaborative research framework"
+      - "Future coastal ocean temperatures and marine heat waves"
+      - "Changes in extreme weather events due to the changing ocean"
+      - "Coastal ocean thermal refugia and hot spots"
+      - "Forecasting ocean surface temperatures"
     button:
       enable: true
-      label: "Learn About the Project"
       link: "/about"
+      label: "Find out more about the project!"
 
   - title: "Our Impact By The Numbers"
     image: "/images/stats-illustration.png"
@@ -31,15 +37,4 @@ features:
       enable: false
       label: ""
       link: ""
-
-# Call to Action (Mapped from your cta-card)
-call_to_action:
-  enable: true
-  title: "Want to get project updates?"
-  content: "Click here to sign up for our blog post updates right into your mailbox!"
-  image: "/images/textures/noise-pattern.svg"
-  button:
-    enable: true
-    label: "Signup"
-    link: "/signup/"
 ---

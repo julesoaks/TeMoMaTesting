@@ -2,7 +2,7 @@
 # The base URL of your site (required). This will be prepended to all relative URLs.
 baseURL = "/"
 # Title of your website (required).
-title = "TeMoMa"
+title = "Te Moana Mahana"
 # Your theme name
 theme = "hugoplate"
 # Default time zone for time stamps; use any valid tz database name: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List
@@ -11,7 +11,7 @@ timeZone = "Pacific/Auckland"
 summaryLength = 10 # see https://gohugo.io/content-management/summaries/#automatic-summary
 # disable language
 disableLanguages = true
-] # example: ["fr"] for disable french language. see https://gohugo.io/content-management/multilingual/
+# example: ["fr"] for disable french language. see https://gohugo.io/content-management/multilingual/
 hasCJKLanguage = false #  If hasCJKLanguage true, auto-detect Chinese/Japanese/Korean Languages in the content. see: https://gohugo.io/getting-started/configuration/#hascjklanguage
 # default language
 defaultContentLanguage = 'en'
@@ -85,7 +85,7 @@ maxAge = "720h"
 unsafe = true
 
 [markup.highlight]
-style = 'monokai' # see https://xyproto.github.io/splash/docs/all.html
+style = 'monokai'          # see https://xyproto.github.io/splash/docs/all.html
 lineNumbersInTable = false
 
 [markup.tableOfContents]
@@ -120,11 +120,11 @@ notAlternative = true
 link = "plugins/swiper/swiper-bundle.css" # https://github.com/gethugothemes/hugo-modules/tree/master/gallery-slider
 lazy = true
 [[params.plugins.css]]
-link = "plugins/glightbox/glightbox.css" 
+link = "plugins/glightbox/glightbox.css"
 # https://github.com/gethugothemes/hugo-modules/tree/master/gallery-slider
 lazy = true
 [[params.plugins.css]]
-link = "plugins/font-awesome/v6/brands.css" 
+link = "plugins/font-awesome/v6/brands.css"
 # https://github.com/gethugothemes/hugo-modules/tree/master/icons/font-awesome
 lazy = true
 [[params.plugins.css]]
@@ -139,7 +139,7 @@ lazy = true
 link = "js/search.js" # https://github.com/gethugothemes/hugo-modules/tree/master/search
 lazy = false
 [[params.plugins.js]]
-link = "plugins/swiper/swiper-bundle.js" 
+link = "plugins/swiper/swiper-bundle.js"
 # https://github.com/gethugothemes/hugo-modules/tree/master/gallery-slider
 lazy = false
 [[params.plugins.js]]
@@ -154,7 +154,7 @@ lazy = false
 [[params.plugins.js]]
 link = "js/accordion.js" # https://github.com/gethugothemes/hugo-modules/tree/master/accordion
 lazy = true
-[[params.plugins.js]] 
+[[params.plugins.js]]
 link = "js/tab.js" # https://github.com/gethugothemes/hugo-modules/tree/master/accordion
 lazy = true
 [[params.plugins.js]]

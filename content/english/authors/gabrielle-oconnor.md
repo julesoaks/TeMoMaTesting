@@ -1,8 +1,8 @@
 ---
 title: "Gabrielle O'Connor"
 last_name: "O'Connor"
-designation: "Key Researcher"
-user_groups: "Key Researchers"
+designation: "Postdoctoral Researcher"
+user_groups: "Postdoctoral Researchers"
 image: "images/team/avatar.png"
 social:
   - icon: "fa-brands fa-linkedin"
