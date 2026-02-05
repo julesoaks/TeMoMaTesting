@@ -20,33 +20,33 @@
   
   "icons": [
     {
-      "src": "/images/faviconV4_hu_4185d13af06592d1.png",
+      "src": "/images/favicon-v5_hu_8995d20cfd41cd5e.png",
       "sizes": "48x48",
       "type": "image/png"
     },
     {
-      "src": "/images/faviconV4_hu_a7b30c0d424ca1a3.png",
+      "src": "/images/favicon-v5_hu_5d847d68933c21c8.png",
       "sizes": "72x72",
       "type": "image/png"
     },
     {
-      "src": "/images/faviconV4_hu_9bdbbfd46ff7e91.png",
+      "src": "/images/favicon-v5_hu_1f899176a2c988ae.png",
       "sizes": "96x96",
       "type": "image/png"
     },
     {
-      "src": "/images/faviconV4_hu_ba1e9ff2194c1bcf.png",
+      "src": "/images/favicon-v5_hu_c1dd65153fafc0c7.png",
       "sizes": "144x144",
       "type": "image/png"
     },
     {
-      "src": "/images/faviconV4_hu_e39e8bbd2f3345a.png",
+      "src": "/images/favicon-v5_hu_61ecbc150634d1c2.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "/images/faviconV4_hu_a43c3d42407b75d3.png",
+      "src": "/images/favicon-v5_hu_f501a825a555159.png",
       "sizes": "512x512",
       "type": "image/png"
     }

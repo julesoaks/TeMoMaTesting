@@ -26,8 +26,15 @@ interests:
   - "Climate Modeling"
 ---
 
-Craig Stevens is an oceanographer focused on the ocean’s extrema and how to measure them - the coldest/warmest, the southern-most, the fastest, the harshest waves.
+Craig Stevens is an oceanographer focused on the ocean’s extrema and how to measure them - the
+coldest/warmest, the southern-most, the fastest, the harshest waves.
 
-He grew up in Kaurna country in South Australia and studied in Australia and Canada before moving to New Zealand in the 1990s. The science has enabled him to participate in 16 expeditions to Antarctica and over 50 ocean experiments. Through this time there has been a growing awareness of the importance of telling the intertwined stories of Earth’s ocean and what the science is revealing about our future as we enter the Anthropocene.
+He grew up in Kaurna country in South Australia and studied in Australia and Canada before moving
+to New Zealand in the 1990s. The science has enabled him to participate in 16 expeditions to Antarctica
+and over 50 ocean experiments.  Through this time there has been a growing awareness of the importance of
+telling the intertwined stories of Earth’s ocean and what the science is revealing about our future as we
+enter the Anthropocene.
 
-He is a Professor in Physics at the University of Auckland and a Principal Scientist with Earth Sciences New Zealand. He has served as the President of the New Zealand Association of Scientists and the Chair of the Aotearoa Wave and Tidal Energy Association.
+He is a Professor in Physics at the University of Auckland and a Principal Scientist with Earth
+Sciences New Zealand. He has served as the President of the New Zealand Association of Scientists
+and the Chair of the Aotearoa Wave and Tidal Energy Association.

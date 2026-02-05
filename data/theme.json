@@ -17,9 +17,9 @@
     "darkmode": {
       "theme_color": {
         "primary": "#fff",
-        "body": "#0B0A26",   
+        "body": "#0B0A26",
         "border": "#ffffff",
-        "light": "#0C0B2B", 
+        "light": "#0C0B2B",
         "dark": "#ffffff"
       },
       "text_color": {

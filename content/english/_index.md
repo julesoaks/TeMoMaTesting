@@ -25,16 +25,4 @@ features:
       enable: true
       link: "/about"
       label: "Find out more about the project!"
-
-  - title: "Our Impact By The Numbers"
-    image: "/images/stats-illustration.png"
-    content: "We are committed to data-driven research and transparent scientific communication across New Zealand."
-    bulletpoints:
-      - "**1M+** Data points collected"
-      - "**10** Research papers written"
-      - "**16** Dedicated researchers"
-    button:
-      enable: false
-      label: ""
-      link: ""
 ---

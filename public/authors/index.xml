@@ -33,7 +33,7 @@
       <link>//localhost:1313/authors/craig-stevens/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/authors/craig-stevens/</guid>
-      <description>&lt;p&gt;Craig Stevens is an oceanographer focused on the ocean’s extrema and how to measure them - the coldest/warmest, the southern-most, the fastest, the harshest waves.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Craig Stevens is an oceanographer focused on the ocean’s extrema and how to measure them - the&#xA;coldest/warmest, the southern-most, the fastest, the harshest waves.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Denise Fernandez</title>
@@ -68,7 +68,7 @@
       <link>//localhost:1313/authors/julian-drake/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/authors/julian-drake/</guid>
-      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque semper, nulla quis varius dignissim, mauris nunc imperdiet eros, quis malesuada ipsum augue vitae orci.&#xA;Bonjour!&lt;/p&gt;</description>
+      <description>&lt;p&gt;Julian Drake is a recent oceanography graduate from the University of Auckland with a Master of&#xA;Geography. His thesis, a broad study of sea surface temperature variability in the Southwest Pacific,&#xA;is closely related to the topics explored in Te Moana Mahana and was supervised by Principal&#xA;Investigator Melissa Bowen.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Karen Fisher</title>
