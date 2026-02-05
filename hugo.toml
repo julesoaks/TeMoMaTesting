@@ -71,8 +71,7 @@ resampleFilter = "Lanczos"
 ############################ Caches ##############################
 [caches]
 [caches.images]
-dir = ":resourceDir/_gen"
-maxAge = "720h"
+dir = ':cacheDir/images'
 
 [caches.assets]
 dir = ":resourceDir/_gen"
@@ -163,7 +162,3 @@ lazy = true
 [[params.plugins.js]]
 link = "plugins/youtube-lite.js" # https://github.com/gethugothemes/hugo-modules/tree/master/videos
 lazy = true
-
-[caches]
-  [caches.images]
-    dir = ':cacheDir/images'
