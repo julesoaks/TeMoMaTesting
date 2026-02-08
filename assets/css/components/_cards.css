@@ -1,58 +1,72 @@
-.author-card-glass, 
+.author-card-glass,
 .blog-card-glass {
-  background-color: var(--glass-bg-light) !important;
-  backdrop-filter: var(--glass-blur) !important;
+  background-color: var(--glass-bg-light);
+  backdrop-filter: var(--glass-blur);
   -webkit-backdrop-filter: var(--glass-blur);
-  border: var(--glass-border) !important;
-  border-radius: var(--radius-card) !important;
+  border: var(--glass-border);
+  border-radius: var(--radius-card);
   box-shadow: var(--glass-shadow-light);
-  transition: var(--transition-smooth) !important;
+  transition: var(--transition-smooth);
   position: relative;
   overflow: hidden;
-  display: flex !important;
+  display: flex;
   flex-direction: column;
   height: 100%;
   cursor: pointer;
-  color: var(--glass-text-light) !important;
+  color: var(--glass-text-light);
 
   /* Target headings and links explicitly so they don't change color unexpectedly */
-  h1, h2, h3, h4, h5, h6, a, p {
-    color: var(--glass-text-light) !important;
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  a,
+  p {
+    color: var(--glass-text-light);
     transition: var(--transition-smooth);
   }
 
   &:hover {
-    background-color: var(--glass-bg-light-hover) !important;
+    background-color: var(--glass-bg-light-hover);
     box-shadow: var(--glass-shadow-light-hover);
     transform: var(--transformation-hover);
-    
+
     /* Ensure text stays light/black on hover */
-    h1, h2, h3, h4, h5, h6, a, p {
-      color: var(--glass-text-light) !important;
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    a,
+    p {
+      color: var(--glass-text-light);
     }
   }
 
   /* --- NESTED SOCIAL ICONS --- */
   .social-icons {
-    margin-top: auto; 
-    
+    margin-top: auto;
+
     li a {
       display: flex;
       align-items: center;
       justify-content: center;
-      width: 45px !important;
-      height: 45px !important;
+      width: 45px;
+      height: 45px;
       background-color: var(--glass-bg-light);
       border-radius: 50%;
       border: var(--glass-border);
-      backdrop-filter: var(--glass-blur) !important;
+      backdrop-filter: var(--glass-blur);
       transition: var(--transition-smooth);
       box-shadow: var(--glass-shadow-light);
 
       &:hover {
         background-color: var(--glass-bg-light-active-hover);
         box-shadow: var(--glass-shadow-light-hover);
-        transform: none !important; 
+        transform: none;
       }
     }
   }
@@ -60,31 +74,46 @@
 
 /* --- DARK MODE OVERRIDES --- */
 .dark {
-  .author-card-glass, 
-  .blog-card-glass {
-    background-color: var(--glass-bg-dark) !important;
-    color: var(--glass-text-dark) !important;
 
-    h1, h2, h3, h4, h5, h6, a, p {
-      color: var(--glass-text-dark) !important;
+  .author-card-glass,
+  .blog-card-glass {
+    background-color: var(--glass-bg-dark);
+    color: var(--glass-text-dark);
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    a,
+    p {
+      color: var(--glass-text-dark);
     }
 
     &:hover {
-      background-color: var(--glass-bg-dark-hover) !important;
-      
-      h1, h2, h3, h4, h5, h6, a, p {
-        color: var(--glass-text-dark) !important;
+      background-color: var(--glass-bg-dark-hover);
+
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6,
+      a,
+      p {
+        color: var(--glass-text-dark);
       }
     }
 
     .social-icons li a {
       background: var(--glass-bg-dark);
-      color: var(--glass-text-dark) !important;
-      transform: none !important; 
+      color: var(--glass-text-dark);
+      transform: none;
 
       &:hover {
         background: var(--glass-bg-dark-active-hover);
-        transform: none !important;
+        transform: none;
       }
     }
   }
@@ -104,7 +133,7 @@
 
 /* Author cards are "thinner" and more compact */
 .author-card-img-wrapper {
-  height: 300px; 
+  height: 300px;
 }
 
 .blog-card-img-wrapper img,

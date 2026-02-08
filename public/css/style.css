@@ -608,6 +608,15 @@
   .h-6 {
     height: calc(var(--spacing) * 6);
   }
+  .h-\[10px\] {
+    height: 10px;
+  }
+  .h-\[30px\] {
+    height: 30px;
+  }
+  .h-\[50px\] {
+    height: 50px;
+  }
   .h-\[80px\] {
     height: 80px;
   }
@@ -668,6 +677,9 @@
   }
   .w-full {
     width: 100%;
+  }
+  .w-max {
+    width: max-content;
   }
   .max-w-\[600px\] {
     max-width: 600px;
@@ -935,6 +947,9 @@
   .\!py-1\.5 {
     padding-block: calc(var(--spacing) * 1.5) !important;
   }
+  .\!py-4 {
+    padding-block: calc(var(--spacing) * 4) !important;
+  }
   .py-1 {
     padding-block: calc(var(--spacing) * 1);
   }
@@ -1003,6 +1018,9 @@
   }
   .text-center {
     text-align: center;
+  }
+  .text-left {
+    text-align: left;
   }
   .font-primary {
     font-family: var(--font-primary);
@@ -1250,6 +1268,31 @@
       display: none;
     }
   }
+  .sm\:h-\[10px\] {
+    @media (width >= 40rem) {
+      height: 10px;
+    }
+  }
+  .sm\:h-\[30px\] {
+    @media (width >= 40rem) {
+      height: 30px;
+    }
+  }
+  .sm\:h-\[50px\] {
+    @media (width >= 40rem) {
+      height: 50px;
+    }
+  }
+  .sm\:h-\[70px\] {
+    @media (width >= 40rem) {
+      height: 70px;
+    }
+  }
+  .sm\:h-\[80px\] {
+    @media (width >= 40rem) {
+      height: 80px;
+    }
+  }
   .sm\:col-10 {
     @media (width >= 40rem) {
       flex: 0 0 auto;
@@ -1259,6 +1302,11 @@
   .sm\:bg-red-200 {
     @media (width >= 40rem) {
       background-color: var(--color-red-200);
+    }
+  }
+  .sm\:text-center {
+    @media (width >= 40rem) {
+      text-align: center;
     }
   }
   .md\:order-1 {
@@ -1329,6 +1377,11 @@
   .md\:hidden {
     @media (width >= 48rem) {
       display: none;
+    }
+  }
+  .md\:h-\[60px\] {
+    @media (width >= 48rem) {
+      height: 60px;
     }
   }
   .md\:col-4 {
@@ -1471,6 +1524,11 @@
   .lg\:inline-block {
     @media (width >= 64rem) {
       display: inline-block;
+    }
+  }
+  .lg\:h-\[80px\] {
+    @media (width >= 64rem) {
+      height: 80px;
     }
   }
   .lg\:col-3 {
@@ -3964,83 +4022,82 @@ input#nav-toggle:checked ~ #nav-menu {
   --radius-pill: 50px;
 }
 .btn-glass, .active-btn-glass, .btn-glass-sm, .btn-glass-not-clickable {
-  background-color: var(--glass-bg-light) !important;
-  backdrop-filter: var(--glass-blur) !important;
-  box-shadow: var(--glass-shadow-light) !important;
+  background-color: var(--glass-bg-light);
+  backdrop-filter: var(--glass-blur);
+  box-shadow: var(--glass-shadow-light);
   -webkit-backdrop-filter: var(--glass-blur);
-  border: var(--glass-border) !important;
-  border-radius: 50px !important;
+  border: var(--glass-border);
+  border-radius: 50px;
   padding: 10px 25px;
-  transition: var(--transition-smooth) !important;
+  transition: var(--transition-smooth);
   display: inline-block;
-  color: var(--glass-text-light) !important;
+  color: var(--glass-text-light);
   cursor: pointer;
 }
 .btn-glass-not-clickable {
   cursor: default;
 }
 .btn-glass:hover {
-  background-color: var(--glass-bg-light-hover) !important;
-  transform: var(--transformation-hover) !important;
-  box-shadow: var(--glass-shadow-light-hover) !important;
+  background-color: var(--glass-bg-light-hover);
+  transform: var(--transformation-hover);
+  box-shadow: var(--glass-shadow-light-hover);
 }
 .active-btn-glass {
-  background-color: var(--glass-bg-light-active) !important;
+  background-color: var(--glass-bg-light-active);
 }
 .active-btn-glass:hover {
-  background-color: var(--glass-bg-light-active-hover) !important;
+  background-color: var(--glass-bg-light-active-hover);
 }
 .dark .btn-glass, .dark .active-btn-glass, .dark .btn-glass-sm, .dark .btn-glass-not-clickable {
-  background-color: var(--glass-bg-dark) !important;
-  backdrop-filter: var(--glass-blur) !important;
-  box-shadow: var(--glass-shadow-dark) !important;
+  background-color: var(--glass-bg-dark);
+  backdrop-filter: var(--glass-blur);
+  box-shadow: var(--glass-shadow-dark);
   -webkit-backdrop-filter: var(--glass-blur);
-  border: var(--glass-border) !important;
-  border-radius: 50px !important;
-  padding: 10px 25px;
-  transition: var(--transition-smooth) !important;
+  border: var(--glass-border);
+  border-radius: 50px;
+  transition: var(--transition-smooth);
   display: inline-block;
-  color: var(--glass-text-dark) !important;
+  color: var(--glass-text-dark);
 }
 .dark .btn-glass:hover {
-  background-color: rgba(255, 255, 255, 0.4) !important;
-  transform: var(--transformation-hover) !important;
-  box-shadow: var(--glass-shadow-light-hover) !important;
+  background-color: rgba(255, 255, 255, 0.4);
+  transform: var(--transformation-hover);
+  box-shadow: var(--glass-shadow-light-hover);
 }
 .dark .active-btn-glass {
-  background-color: var(--glass-bg-dark-active) !important;
+  background-color: var(--glass-bg-dark-active);
 }
 .dark .active-btn-glass:hover {
-  background-color: var(--glass-bg-dark-active-hover) !important;
+  background-color: var(--glass-bg-dark-active-hover);
 }
 .btn-glass-sm {
   font-size: 0.85rem;
   padding: 8px 20px;
 }
 .btn-glass-sm:hover {
-  background-color: var(--glass-bg-light-active-hover) !important;
-  box-shadow: var(--glass-shadow-light-hover) !important;
+  background-color: var(--glass-bg-light-active-hover);
+  box-shadow: var(--glass-shadow-light-hover);
 }
 .dark .btn-glass-sm:hover {
-  background-color: var(--glass-bg-dark-active-hover) !important;
-  box-shadow: var(--glass-shadow-dark-hover) !important;
+  background-color: var(--glass-bg-dark-active-hover);
+  box-shadow: var(--glass-shadow-dark-hover);
 }
 header.header {
-  background-color: rgba(255, 255, 255, 0.7) !important;
-  backdrop-filter: var(--glass-blur) !important;
+  background-color: rgba(255, 255, 255, 0.7);
+  backdrop-filter: var(--glass-blur);
   -webkit-backdrop-filter: var(--glass-blur);
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   transition: var(--transition-smooth);
 }
 .dark header.header {
-  background-color: color-mix(in srgb, #0C0B2B, transparent 30%) !important;
+  background-color: color-mix(in srgb, #0C0B2B, transparent 30%);
   @supports (color: color-mix(in lab, red, red)) {
-    background-color: color-mix(in srgb, var(--color-darkmode-light), transparent 30%) !important;
+    background-color: color-mix(in srgb, var(--color-darkmode-light), transparent 30%);
   }
 }
 .nav-link {
   display: inline-block;
-  transition: transform 0.3s ease, color 0.3s ease !important;
+  transition: transform 0.3s ease, color 0.3s ease;
 }
 .nav-link:hover {
   transform: var(--transformation-hover);
@@ -4049,30 +4106,30 @@ header.header {
   font-weight: 600;
 }
 .author-card-glass, .blog-card-glass {
-  background-color: var(--glass-bg-light) !important;
-  backdrop-filter: var(--glass-blur) !important;
+  background-color: var(--glass-bg-light);
+  backdrop-filter: var(--glass-blur);
   -webkit-backdrop-filter: var(--glass-blur);
-  border: var(--glass-border) !important;
-  border-radius: var(--radius-card) !important;
+  border: var(--glass-border);
+  border-radius: var(--radius-card);
   box-shadow: var(--glass-shadow-light);
-  transition: var(--transition-smooth) !important;
+  transition: var(--transition-smooth);
   position: relative;
   overflow: hidden;
-  display: flex !important;
+  display: flex;
   flex-direction: column;
   height: 100%;
   cursor: pointer;
-  color: var(--glass-text-light) !important;
+  color: var(--glass-text-light);
   h1, h2, h3, h4, h5, h6, a, p {
-    color: var(--glass-text-light) !important;
+    color: var(--glass-text-light);
     transition: var(--transition-smooth);
   }
   &:hover {
-    background-color: var(--glass-bg-light-hover) !important;
+    background-color: var(--glass-bg-light-hover);
     box-shadow: var(--glass-shadow-light-hover);
     transform: var(--transformation-hover);
     h1, h2, h3, h4, h5, h6, a, p {
-      color: var(--glass-text-light) !important;
+      color: var(--glass-text-light);
     }
   }
   .social-icons {
@@ -4081,42 +4138,42 @@ header.header {
       display: flex;
       align-items: center;
       justify-content: center;
-      width: 45px !important;
-      height: 45px !important;
+      width: 45px;
+      height: 45px;
       background-color: var(--glass-bg-light);
       border-radius: 50%;
       border: var(--glass-border);
-      backdrop-filter: var(--glass-blur) !important;
+      backdrop-filter: var(--glass-blur);
       transition: var(--transition-smooth);
       box-shadow: var(--glass-shadow-light);
       &:hover {
         background-color: var(--glass-bg-light-active-hover);
         box-shadow: var(--glass-shadow-light-hover);
-        transform: none !important;
+        transform: none;
       }
     }
   }
 }
 .dark {
   .author-card-glass, .blog-card-glass {
-    background-color: var(--glass-bg-dark) !important;
-    color: var(--glass-text-dark) !important;
+    background-color: var(--glass-bg-dark);
+    color: var(--glass-text-dark);
     h1, h2, h3, h4, h5, h6, a, p {
-      color: var(--glass-text-dark) !important;
+      color: var(--glass-text-dark);
     }
     &:hover {
-      background-color: var(--glass-bg-dark-hover) !important;
+      background-color: var(--glass-bg-dark-hover);
       h1, h2, h3, h4, h5, h6, a, p {
-        color: var(--glass-text-dark) !important;
+        color: var(--glass-text-dark);
       }
     }
     .social-icons li a {
       background: var(--glass-bg-dark);
-      color: var(--glass-text-dark) !important;
-      transform: none !important;
+      color: var(--glass-text-dark);
+      transform: none;
       &:hover {
         background: var(--glass-bg-dark-active-hover);
-        transform: none !important;
+        transform: none;
       }
     }
   }
@@ -4145,7 +4202,7 @@ header.header {
   align-items: center;
   gap: 60px;
   padding: 40px;
-  background-color: var(--glass-bg-light) !important;
+  background-color: var(--glass-bg-light);
   backdrop-filter: var(--glass-blur);
   border-radius: var(--radius-card);
   border: var(--glass-border);
@@ -4155,7 +4212,7 @@ header.header {
   box-shadow: var(--glass-shadow-dark);
 }
 .partner-logo:hover, .org-logo:hover {
-  transition: var(--transition-smooth) !important;
+  transition: var(--transition-smooth);
   transform: var(--transformation-hover);
 }
 .pill-glass {
@@ -4169,7 +4226,7 @@ header.header {
   transition: var(--transition-smooth);
 }
 .pill-glass:hover {
-  background-color: var(--glass-bg-light-hover) !important;
+  background-color: var(--glass-bg-light-hover);
   transform: var(--transformation-hover);
   box-shadow: var(--glass-shadow-light-hover);
 }
@@ -4179,15 +4236,15 @@ header.header {
   color: var(--glass-text-dark);
 }
 .dark .pill-glass:hover {
-  background-color: var(--glass-bg-dark-hover) !important;
+  background-color: var(--glass-bg-dark-hover);
 }
 .social-icons li a {
-  display: flex !important;
-  visibility: visible !important;
+  display: flex;
+  visibility: visible;
   align-items: center;
   justify-content: center;
-  width: 45px !important;
-  height: 45px !important;
+  width: 45px;
+  height: 45px;
   background: var(--glass-bg-light);
   border-radius: 50%;
   border: var(--glass-border);
@@ -4217,9 +4274,9 @@ header.header {
   display: block;
 }
 .glider-map-glass {
-  border-radius: 20px !important;
+  border-radius: 20px;
   overflow: hidden;
-  border: var(--glass-border) !important;
+  border: var(--glass-border);
   background: rgba(255, 255, 255, 0.05);
 }
 .text-ellipsis-3 {
@@ -4229,7 +4286,7 @@ header.header {
   overflow: hidden;
 }
 .sidebar-glass-wrapper {
-  border-radius: var(--radius-card) !important;
+  border-radius: var(--radius-card);
   background-color: var(--glass-bg-light);
   backdrop-filter: var(--glass-blur);
   -webkit-backdrop-filter: var(--glass-blur);
@@ -4276,8 +4333,8 @@ header.header {
   margin-bottom: 1rem;
 }
 .content, .content p, .content li {
-  font-size: 1rem !important;
-  line-height: 1.6 !important;
+  font-size: 1rem;
+  line-height: 1.6;
 }
 .display-3 {
   font-size: clamp(2.5rem, 6vw, 4rem);

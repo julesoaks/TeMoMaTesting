@@ -1,14 +1,17 @@
-.btn-glass, .active-btn-glass, .btn-glass-sm, .btn-glass-not-clickable {
-  background-color: var(--glass-bg-light) !important;
-  backdrop-filter: var(--glass-blur) !important;
-  box-shadow: var(--glass-shadow-light) !important;
+.btn-glass,
+.active-btn-glass,
+.btn-glass-sm,
+.btn-glass-not-clickable {
+  background-color: var(--glass-bg-light);
+  backdrop-filter: var(--glass-blur);
+  box-shadow: var(--glass-shadow-light);
   -webkit-backdrop-filter: var(--glass-blur);
-  border: var(--glass-border) !important;
-  border-radius: 50px !important;
+  border: var(--glass-border);
+  border-radius: 50px;
   padding: 10px 25px;
-  transition: var(--transition-smooth) !important;
+  transition: var(--transition-smooth);
   display: inline-block;
-  color: var(--glass-text-light) !important;
+  color: var(--glass-text-light);
   cursor: pointer;
 }
 
@@ -17,44 +20,46 @@
 }
 
 .btn-glass:hover {
-  background-color: var(--glass-bg-light-hover) !important;
-  transform: var(--transformation-hover) !important;
-  box-shadow: var(--glass-shadow-light-hover) !important; 
+  background-color: var(--glass-bg-light-hover);
+  transform: var(--transformation-hover);
+  box-shadow: var(--glass-shadow-light-hover);
 }
 
-.active-btn-glass { 
-  background-color: var(--glass-bg-light-active) !important;
+.active-btn-glass {
+  background-color: var(--glass-bg-light-active);
 }
 
 .active-btn-glass:hover {
-  background-color: var(--glass-bg-light-active-hover) !important;
+  background-color: var(--glass-bg-light-active-hover);
 }
 
-.dark .btn-glass, .dark .active-btn-glass, .dark .btn-glass-sm, .dark .btn-glass-not-clickable {
-  background-color: var(--glass-bg-dark) !important;
-  backdrop-filter: var(--glass-blur) !important;
-  box-shadow: var(--glass-shadow-dark) !important;
+.dark .btn-glass,
+.dark .active-btn-glass,
+.dark .btn-glass-sm,
+.dark .btn-glass-not-clickable {
+  background-color: var(--glass-bg-dark);
+  backdrop-filter: var(--glass-blur);
+  box-shadow: var(--glass-shadow-dark);
   -webkit-backdrop-filter: var(--glass-blur);
-  border: var(--glass-border) !important;
-  border-radius: 50px !important;
-  padding: 10px 25px;
-  transition: var(--transition-smooth) !important;
+  border: var(--glass-border);
+  border-radius: 50px;
+  transition: var(--transition-smooth);
   display: inline-block;
-  color: var(--glass-text-dark) !important;
+  color: var(--glass-text-dark);
 }
 
 .dark .btn-glass:hover {
-  background-color: rgba(255, 255, 255, 0.4) !important;
-  transform: var(--transformation-hover) !important;
-  box-shadow: var(--glass-shadow-light-hover) !important; 
+  background-color: rgba(255, 255, 255, 0.4);
+  transform: var(--transformation-hover);
+  box-shadow: var(--glass-shadow-light-hover);
 }
 
 .dark .active-btn-glass {
-  background-color: var(--glass-bg-dark-active) !important;
+  background-color: var(--glass-bg-dark-active);
 }
 
 .dark .active-btn-glass:hover {
-  background-color: var(--glass-bg-dark-active-hover) !important;
+  background-color: var(--glass-bg-dark-active-hover);
 }
 
 /* Specific variation for smaller/darker context (e.g., Read More) */
@@ -64,11 +69,11 @@
 }
 
 .btn-glass-sm:hover {
-  background-color: var(--glass-bg-light-active-hover) !important;
-  box-shadow: var(--glass-shadow-light-hover) !important; 
+  background-color: var(--glass-bg-light-active-hover);
+  box-shadow: var(--glass-shadow-light-hover);
 }
 
 .dark .btn-glass-sm:hover {
-  background-color: var(--glass-bg-dark-active-hover) !important;
-  box-shadow: var(--glass-shadow-dark-hover) !important; 
+  background-color: var(--glass-bg-dark-active-hover);
+  box-shadow: var(--glass-shadow-dark-hover);
 }

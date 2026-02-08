@@ -1,19 +1,24 @@
 header.header {
-  background-color: rgba(255, 255, 255, 0.7) !important; 
-  backdrop-filter: var(--glass-blur) !important;
+  background-color: rgba(255, 255, 255, 0.7);
+  backdrop-filter: var(--glass-blur);
   -webkit-backdrop-filter: var(--glass-blur);
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   transition: var(--transition-smooth);
 }
 
 .dark header.header {
-  background-color: color-mix(in srgb, var(--color-darkmode-light), transparent 30%) !important;
+  background-color: color-mix(in srgb, var(--color-darkmode-light), transparent 30%);
 }
 
 .nav-link {
   display: inline-block;
-  transition: transform 0.3s ease, color 0.3s ease !important;
+  transition: transform 0.3s ease, color 0.3s ease;
 }
 
-.nav-link:hover { transform: var(--transformation-hover); }
-.nav-link.active { font-weight: 600; }
+.nav-link:hover {
+  transform: var(--transformation-hover);
+}
+
+.nav-link.active {
+  font-weight: 600;
+}
