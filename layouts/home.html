@@ -99,24 +99,24 @@
       <div class="{{ if not (modBool $i 2) }}
               md:order-1
             {{ end }} md:col-7 lg:col-6">
-        <h2 class="mb-4 text-center lg:text-left">
+        <h2 class="mb-4 text-center sm:text-left">
           {{ .title | markdownify }}
         </h2>
-        <p class="mb-8 text-lg text-center lg:text-left">
+        <p class="mb-8 text-lg text-center sm:text-left">
           {{ .content | markdownify }}
         </p>
-        <ul>
+        <ul class="sm:text-left">
           {{ range .bulletpoints }}
-          <li class="relative mb-4 pl-6 text-left">
-            <i class="fa fa-check absolute left-0 top-1.5"></i>
+          <li class="relative mb-4 pl-6 text-center sm:text-left">
+            <i class="fa fa-angle-right absolute left-0 top-1.5"></i>
             {{ . | markdownify }}
           </li>
           {{ end }}
         </ul>
         {{ with .button }}
         {{ if .enable }}
-        <div class="sm:flex sm:justify-center">
-          <a class="btn-glass mt-6 mx-auto block w-max" href="{{ .link | absURL }}">
+        <div class="text-center sm:text-center lg:text-left">
+          <a class="btn-glass mt-6 sm:mx-auto sm:block sm:w-max" href="{{ .link | absURL }}">
             {{ .label }}
             <i class="fa fa-arrow-right pl-2"></i>
           </a>
