@@ -2,128 +2,128 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Our Team on Te Moana Mahana</title>
-    <link>//localhost:1313/authors/</link>
+    <link>http://localhost:1313/TeMoMaTesting/authors/</link>
     <description>Recent content in Our Team on Te Moana Mahana</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="//localhost:1313/authors/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/TeMoMaTesting/authors/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Alain de Verneil</title>
-      <link>//localhost:1313/authors/alain-de-verneil/</link>
+      <link>http://localhost:1313/TeMoMaTesting/authors/alain-de-verneil/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/authors/alain-de-verneil/</guid>
+      <guid>http://localhost:1313/TeMoMaTesting/authors/alain-de-verneil/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque semper, nulla quis varius dignissim, mauris nunc imperdiet eros, quis malesuada ipsum augue vitae orci.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Alice Della Penna</title>
-      <link>//localhost:1313/authors/alice-della-penna/</link>
+      <link>http://localhost:1313/TeMoMaTesting/authors/alice-della-penna/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/authors/alice-della-penna/</guid>
+      <guid>http://localhost:1313/TeMoMaTesting/authors/alice-della-penna/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque semper, nulla quis varius dignissim, mauris nunc imperdiet eros, quis malesuada ipsum augue vitae orci.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Charine Collins</title>
-      <link>//localhost:1313/authors/charine-collins/</link>
+      <link>http://localhost:1313/TeMoMaTesting/authors/charine-collins/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/authors/charine-collins/</guid>
+      <guid>http://localhost:1313/TeMoMaTesting/authors/charine-collins/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque semper, nulla quis varius dignissim, mauris nunc imperdiet eros, quis malesuada ipsum augue vitae orci.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Craig Stevens</title>
-      <link>//localhost:1313/authors/craig-stevens/</link>
+      <link>http://localhost:1313/TeMoMaTesting/authors/craig-stevens/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/authors/craig-stevens/</guid>
+      <guid>http://localhost:1313/TeMoMaTesting/authors/craig-stevens/</guid>
       <description>&lt;p&gt;Craig Stevens is an oceanographer focused on the ocean’s extrema and how to measure them - the&#xA;coldest/warmest, the southern-most, the fastest, the harshest waves.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Denise Fernandez</title>
-      <link>//localhost:1313/authors/denise-fernandez/</link>
+      <link>http://localhost:1313/TeMoMaTesting/authors/denise-fernandez/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/authors/denise-fernandez/</guid>
+      <guid>http://localhost:1313/TeMoMaTesting/authors/denise-fernandez/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque semper, nulla quis varius dignissim, mauris nunc imperdiet eros, quis malesuada ipsum augue vitae orci.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Erik Behrens</title>
-      <link>//localhost:1313/authors/erik-behrens/</link>
+      <link>http://localhost:1313/TeMoMaTesting/authors/erik-behrens/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/authors/erik-behrens/</guid>
+      <guid>http://localhost:1313/TeMoMaTesting/authors/erik-behrens/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque semper, nulla quis varius dignissim, mauris nunc imperdiet eros, quis malesuada ipsum augue vitae orci.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Gabrielle O&#39;Connor</title>
-      <link>//localhost:1313/authors/gabrielle-oconnor/</link>
+      <link>http://localhost:1313/TeMoMaTesting/authors/gabrielle-oconnor/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/authors/gabrielle-oconnor/</guid>
+      <guid>http://localhost:1313/TeMoMaTesting/authors/gabrielle-oconnor/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque semper, nulla quis varius dignissim, mauris nunc imperdiet eros, quis malesuada ipsum augue vitae orci.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Jasmin McInerney</title>
-      <link>//localhost:1313/authors/jasmin-mcinerney/</link>
+      <link>http://localhost:1313/TeMoMaTesting/authors/jasmin-mcinerney/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/authors/jasmin-mcinerney/</guid>
+      <guid>http://localhost:1313/TeMoMaTesting/authors/jasmin-mcinerney/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque semper, nulla quis varius dignissim, mauris nunc imperdiet eros, quis malesuada ipsum augue vitae orci.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Julian Drake</title>
-      <link>//localhost:1313/authors/julian-drake/</link>
+      <link>http://localhost:1313/TeMoMaTesting/authors/julian-drake/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/authors/julian-drake/</guid>
+      <guid>http://localhost:1313/TeMoMaTesting/authors/julian-drake/</guid>
       <description>&lt;p&gt;Julian Drake is a recent oceanography graduate from the University of Auckland with a Master of&#xA;Geography. His thesis, a broad study of sea surface temperature variability in the Southwest Pacific,&#xA;is closely related to the topics explored in Te Moana Mahana and was supervised by Principal&#xA;Investigator Melissa Bowen.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Karen Fisher</title>
-      <link>//localhost:1313/authors/karen-fisher/</link>
+      <link>http://localhost:1313/TeMoMaTesting/authors/karen-fisher/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/authors/karen-fisher/</guid>
+      <guid>http://localhost:1313/TeMoMaTesting/authors/karen-fisher/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque semper, nulla quis varius dignissim, mauris nunc imperdiet eros, quis malesuada ipsum augue vitae orci.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Marwan Katurji</title>
-      <link>//localhost:1313/authors/marwan-katurji/</link>
+      <link>http://localhost:1313/TeMoMaTesting/authors/marwan-katurji/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/authors/marwan-katurji/</guid>
+      <guid>http://localhost:1313/TeMoMaTesting/authors/marwan-katurji/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque semper, nulla quis varius dignissim, mauris nunc imperdiet eros, quis malesuada ipsum augue vitae orci.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Melissa Bowen</title>
-      <link>//localhost:1313/authors/melissa-bowen/</link>
+      <link>http://localhost:1313/TeMoMaTesting/authors/melissa-bowen/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/authors/melissa-bowen/</guid>
+      <guid>http://localhost:1313/TeMoMaTesting/authors/melissa-bowen/</guid>
       <description>&lt;p&gt;Melissa Bowen is the principal investigator of the project.&lt;/p&gt;&#xA;&lt;p&gt;She is a physical oceanographer who works on understanding the ocean from the global overturning circulation to estuaries. Over the last several decades, her main research focus is understanding how the ocean around New Zealand is changing.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Mike Kittridge</title>
-      <link>//localhost:1313/authors/mike-kittridge/</link>
+      <link>http://localhost:1313/TeMoMaTesting/authors/mike-kittridge/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/authors/mike-kittridge/</guid>
+      <guid>http://localhost:1313/TeMoMaTesting/authors/mike-kittridge/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque semper, nulla quis varius dignissim, mauris nunc imperdiet eros, quis malesuada ipsum augue vitae orci.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Peter Oke</title>
-      <link>//localhost:1313/authors/peter-oke/</link>
+      <link>http://localhost:1313/TeMoMaTesting/authors/peter-oke/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/authors/peter-oke/</guid>
+      <guid>http://localhost:1313/TeMoMaTesting/authors/peter-oke/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque semper, nulla quis varius dignissim, mauris nunc imperdiet eros, quis malesuada ipsum augue vitae orci.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Peter Russel</title>
-      <link>//localhost:1313/authors/peter-russel/</link>
+      <link>http://localhost:1313/TeMoMaTesting/authors/peter-russel/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/authors/peter-russel/</guid>
+      <guid>http://localhost:1313/TeMoMaTesting/authors/peter-russel/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque semper, nulla quis varius dignissim, mauris nunc imperdiet eros, quis malesuada ipsum augue vitae orci.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Phil Sutton</title>
-      <link>//localhost:1313/authors/phil-sutton/</link>
+      <link>http://localhost:1313/TeMoMaTesting/authors/phil-sutton/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/authors/phil-sutton/</guid>
+      <guid>http://localhost:1313/TeMoMaTesting/authors/phil-sutton/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque semper, nulla quis varius dignissim, mauris nunc imperdiet eros, quis malesuada ipsum augue vitae orci.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Robert Smith</title>
-      <link>//localhost:1313/authors/robert-smith/</link>
+      <link>http://localhost:1313/TeMoMaTesting/authors/robert-smith/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/authors/robert-smith/</guid>
+      <guid>http://localhost:1313/TeMoMaTesting/authors/robert-smith/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque semper, nulla quis varius dignissim, mauris nunc imperdiet eros, quis malesuada ipsum augue vitae orci.&lt;/p&gt;</description>
     </item>
   </channel>

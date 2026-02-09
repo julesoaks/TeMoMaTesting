@@ -4,7 +4,7 @@
   "lang": "en-us",
   "display": "fullscreen",
   "orientation" : "portrait",
-  "start_url": "//localhost:1313/?utm_source=web_app_manifest",
+  "start_url": "http://localhost:1313/TeMoMaTesting/?utm_source=web_app_manifest",
   "background_color": "#fff",
   "theme_color": "#000",
 
@@ -20,33 +20,33 @@
   
   "icons": [
     {
-      "src": "/images/favicon-v5_hu_37c63c1bcad03cc3.png",
+      "src": "/TeMoMaTesting/images/favicon-v5_hu_37c63c1bcad03cc3.png",
       "sizes": "48x48",
       "type": "image/png"
     },
     {
-      "src": "/images/favicon-v5_hu_49ab704c8186281c.png",
+      "src": "/TeMoMaTesting/images/favicon-v5_hu_49ab704c8186281c.png",
       "sizes": "72x72",
       "type": "image/png"
     },
     {
-      "src": "/images/favicon-v5_hu_13f913e7fdf69a27.png",
+      "src": "/TeMoMaTesting/images/favicon-v5_hu_13f913e7fdf69a27.png",
       "sizes": "96x96",
       "type": "image/png"
     },
     {
-      "src": "/images/favicon-v5_hu_805dbab382b8c23e.png",
+      "src": "/TeMoMaTesting/images/favicon-v5_hu_805dbab382b8c23e.png",
       "sizes": "144x144",
       "type": "image/png"
     },
     {
-      "src": "/images/favicon-v5_hu_adfdf6484753b94.png",
+      "src": "/TeMoMaTesting/images/favicon-v5_hu_adfdf6484753b94.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "/images/favicon-v5_hu_39d72c0e858c746f.png",
+      "src": "/TeMoMaTesting/images/favicon-v5_hu_39d72c0e858c746f.png",
       "sizes": "512x512",
       "type": "image/png"
     }

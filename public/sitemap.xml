@@ -2,99 +2,99 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>//localhost:1313/</loc>
+    <loc>http://localhost:1313/TeMoMaTesting/</loc>
     <lastmod>2026-01-04T05:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/categories/application/</loc>
+    <loc>http://localhost:1313/TeMoMaTesting/categories/application/</loc>
     <lastmod>2026-01-04T05:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/categories/</loc>
+    <loc>http://localhost:1313/TeMoMaTesting/categories/</loc>
     <lastmod>2026-01-04T05:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/categories/data/</loc>
+    <loc>http://localhost:1313/TeMoMaTesting/categories/data/</loc>
     <lastmod>2026-01-04T05:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/nextjs/</loc>
+    <loc>http://localhost:1313/TeMoMaTesting/tags/nextjs/</loc>
     <lastmod>2026-01-04T05:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/</loc>
+    <loc>http://localhost:1313/TeMoMaTesting/blog/</loc>
     <lastmod>2026-01-04T05:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/</loc>
+    <loc>http://localhost:1313/TeMoMaTesting/tags/</loc>
     <lastmod>2026-01-04T05:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/tailwind/</loc>
+    <loc>http://localhost:1313/TeMoMaTesting/tags/tailwind/</loc>
     <lastmod>2026-01-04T05:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/post-1/</loc>
+    <loc>http://localhost:1313/TeMoMaTesting/blog/post-1/</loc>
     <lastmod>2026-01-04T05:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/post-3/</loc>
+    <loc>http://localhost:1313/TeMoMaTesting/blog/post-3/</loc>
     <lastmod>2022-04-04T05:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/categories/software/</loc>
+    <loc>http://localhost:1313/TeMoMaTesting/categories/software/</loc>
     <lastmod>2022-04-04T05:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/software/</loc>
+    <loc>http://localhost:1313/TeMoMaTesting/tags/software/</loc>
     <lastmod>2022-04-04T05:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/categories/technology/</loc>
+    <loc>http://localhost:1313/TeMoMaTesting/categories/technology/</loc>
     <lastmod>2022-04-04T05:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/technology/</loc>
+    <loc>http://localhost:1313/TeMoMaTesting/tags/technology/</loc>
     <lastmod>2022-04-04T05:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/post-2/</loc>
+    <loc>http://localhost:1313/TeMoMaTesting/blog/post-2/</loc>
     <lastmod>2022-04-04T05:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/about/</loc>
+    <loc>http://localhost:1313/TeMoMaTesting/about/</loc>
   </url><url>
-    <loc>//localhost:1313/authors/alain-de-verneil/</loc>
+    <loc>http://localhost:1313/TeMoMaTesting/authors/alain-de-verneil/</loc>
   </url><url>
-    <loc>//localhost:1313/authors/alice-della-penna/</loc>
+    <loc>http://localhost:1313/TeMoMaTesting/authors/alice-della-penna/</loc>
   </url><url>
-    <loc>//localhost:1313/authors/charine-collins/</loc>
+    <loc>http://localhost:1313/TeMoMaTesting/authors/charine-collins/</loc>
   </url><url>
-    <loc>//localhost:1313/contact/</loc>
+    <loc>http://localhost:1313/TeMoMaTesting/contact/</loc>
   </url><url>
-    <loc>//localhost:1313/authors/craig-stevens/</loc>
+    <loc>http://localhost:1313/TeMoMaTesting/authors/craig-stevens/</loc>
   </url><url>
-    <loc>//localhost:1313/authors/denise-fernandez/</loc>
+    <loc>http://localhost:1313/TeMoMaTesting/authors/denise-fernandez/</loc>
   </url><url>
-    <loc>//localhost:1313/elements/</loc>
+    <loc>http://localhost:1313/TeMoMaTesting/elements/</loc>
   </url><url>
-    <loc>//localhost:1313/authors/erik-behrens/</loc>
+    <loc>http://localhost:1313/TeMoMaTesting/authors/erik-behrens/</loc>
   </url><url>
-    <loc>//localhost:1313/authors/gabrielle-oconnor/</loc>
+    <loc>http://localhost:1313/TeMoMaTesting/authors/gabrielle-oconnor/</loc>
   </url><url>
-    <loc>//localhost:1313/authors/jasmin-mcinerney/</loc>
+    <loc>http://localhost:1313/TeMoMaTesting/authors/jasmin-mcinerney/</loc>
   </url><url>
-    <loc>//localhost:1313/authors/julian-drake/</loc>
+    <loc>http://localhost:1313/TeMoMaTesting/authors/julian-drake/</loc>
   </url><url>
-    <loc>//localhost:1313/authors/karen-fisher/</loc>
+    <loc>http://localhost:1313/TeMoMaTesting/authors/karen-fisher/</loc>
   </url><url>
-    <loc>//localhost:1313/authors/marwan-katurji/</loc>
+    <loc>http://localhost:1313/TeMoMaTesting/authors/marwan-katurji/</loc>
   </url><url>
-    <loc>//localhost:1313/authors/melissa-bowen/</loc>
+    <loc>http://localhost:1313/TeMoMaTesting/authors/melissa-bowen/</loc>
   </url><url>
-    <loc>//localhost:1313/authors/mike-kittridge/</loc>
+    <loc>http://localhost:1313/TeMoMaTesting/authors/mike-kittridge/</loc>
   </url><url>
-    <loc>//localhost:1313/authors/</loc>
+    <loc>http://localhost:1313/TeMoMaTesting/authors/</loc>
   </url><url>
-    <loc>//localhost:1313/pages/</loc>
+    <loc>http://localhost:1313/TeMoMaTesting/pages/</loc>
   </url><url>
-    <loc>//localhost:1313/authors/peter-oke/</loc>
+    <loc>http://localhost:1313/TeMoMaTesting/authors/peter-oke/</loc>
   </url><url>
-    <loc>//localhost:1313/authors/peter-russel/</loc>
+    <loc>http://localhost:1313/TeMoMaTesting/authors/peter-russel/</loc>
   </url><url>
-    <loc>//localhost:1313/authors/phil-sutton/</loc>
+    <loc>http://localhost:1313/TeMoMaTesting/authors/phil-sutton/</loc>
   </url><url>
-    <loc>//localhost:1313/privacy-policy/</loc>
+    <loc>http://localhost:1313/TeMoMaTesting/privacy-policy/</loc>
   </url><url>
-    <loc>//localhost:1313/authors/robert-smith/</loc>
+    <loc>http://localhost:1313/TeMoMaTesting/authors/robert-smith/</loc>
   </url><url>
-    <loc>//localhost:1313/sections/</loc>
+    <loc>http://localhost:1313/TeMoMaTesting/sections/</loc>
   </url><url>
-    <loc>//localhost:1313/glider/</loc>
+    <loc>http://localhost:1313/TeMoMaTesting/glider/</loc>
   </url>
 </urlset>
