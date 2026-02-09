@@ -116,7 +116,7 @@
         {{ with .button }}
         {{ if .enable }}
         <div class="text-center sm:text-center lg:text-left">
-          <a class="btn-glass mt-6 sm:mx-auto sm:block sm:w-max" href="{{ .link | absURL }}">
+          <a class="btn-glass mt-6 sm:mx-auto sm:block sm:w-max" href="{{ .link | relURL }}">
             {{ .label }}
             <i class="fa fa-arrow-right pl-2"></i>
           </a>
