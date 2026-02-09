@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Te Moana Mahana</title>
-    <link>http://localhost:1313/TeMoMaTesting/categories/</link>
+    <link>//localhost:1313///julesoaks.github.io/TeMoMaTesting/categories/</link>
     <description>Recent content in Categories on Te Moana Mahana</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 04 Jan 2026 05:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/TeMoMaTesting/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313///julesoaks.github.io/TeMoMaTesting/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Application</title>
-      <link>http://localhost:1313/TeMoMaTesting/categories/application/</link>
+      <link>//localhost:1313///julesoaks.github.io/TeMoMaTesting/categories/application/</link>
       <pubDate>Sun, 04 Jan 2026 05:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/TeMoMaTesting/categories/application/</guid>
+      <guid>//localhost:1313///julesoaks.github.io/TeMoMaTesting/categories/application/</guid>
       <description></description>
     </item>
     <item>
       <title>Data</title>
-      <link>http://localhost:1313/TeMoMaTesting/categories/data/</link>
+      <link>//localhost:1313///julesoaks.github.io/TeMoMaTesting/categories/data/</link>
       <pubDate>Sun, 04 Jan 2026 05:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/TeMoMaTesting/categories/data/</guid>
+      <guid>//localhost:1313///julesoaks.github.io/TeMoMaTesting/categories/data/</guid>
       <description></description>
     </item>
     <item>
       <title>Software</title>
-      <link>http://localhost:1313/TeMoMaTesting/categories/software/</link>
+      <link>//localhost:1313///julesoaks.github.io/TeMoMaTesting/categories/software/</link>
       <pubDate>Mon, 04 Apr 2022 05:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/TeMoMaTesting/categories/software/</guid>
+      <guid>//localhost:1313///julesoaks.github.io/TeMoMaTesting/categories/software/</guid>
       <description></description>
     </item>
     <item>
       <title>Technology</title>
-      <link>http://localhost:1313/TeMoMaTesting/categories/technology/</link>
+      <link>//localhost:1313///julesoaks.github.io/TeMoMaTesting/categories/technology/</link>
       <pubDate>Mon, 04 Apr 2022 05:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/TeMoMaTesting/categories/technology/</guid>
+      <guid>//localhost:1313///julesoaks.github.io/TeMoMaTesting/categories/technology/</guid>
       <description></description>
     </item>
   </channel>
