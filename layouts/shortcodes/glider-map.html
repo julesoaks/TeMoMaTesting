@@ -45,13 +45,13 @@
     }).addTo(map);
 
     // --- 3. Tiles & Dark Mode Logic ---
-    const lightTiles = 'https://tiles.stadiamaps.com/tiles/osm_bright/{z}/{x}/{y}{r}.png';
-    const darkTiles = 'https://tiles.stadiamaps.com/tiles/osm_bright/{z}/{x}/{y}{r}.png';
+    const lightTiles = 'https://server.arcgisonline.com/ArcGIS/rest/services/Ocean/World_Ocean_Base/MapServer/tile/{z}/{y}/{x}';
+    const darkTiles = 'https://server.arcgisonline.com/ArcGIS/rest/services/Ocean/World_Ocean_Base/MapServer/tile/{z}/{y}/{x}';
 
     const tileLayer = L.tileLayer(lightTiles, {
       minZoom: 0,
-      maxZoom: 20,
-      attribution: '&copy; Stadia Maps, &copy; OpenMapTiles, &copy; OpenStreetMap'
+      maxZoom: 13,
+      attribution: 'Tiles &copy; Esri &mdash; Sources: GEBCO, NOAA, CHS, OSU, UNH, CSUMB, National Geographic, DeLorme, NAVTEQ, and Esri'
     }).addTo(map);
 
     function updateTheme() {
