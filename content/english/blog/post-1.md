@@ -1,25 +1,16 @@
 ---
-title: "Test Post #1"
+title: "Interview about the project!"
 meta_title: ""
-description: "this is meta description"
-date: 2026-01-04T05:00:00Z
-image: "/images/oceanBlue.png"
+description: "Melissa Bowen RNZ Interview"
+date: 2026-02-10T10:00:00+13:00
+image: "/images/blog/rnz-interview.png"
 header_theme: "dark"
-categories: ["Application", "Data"]
-author: "Craig Stevens"
-tags: ["nextjs", "tailwind"]
+categories: ["Media"]
+author: "Julian Drake"
+tags: ["media", "interview", "update"]
 draft: false
 ---
 
-Nemo vel ad consectetur namut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.
+Our principal investigator, Melissa Bowen, was recently interviewed about the project on RNZ Afternoons with Jesse Mulligan.
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!
-
-### Creative Design
-
-Nam ut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.
-
-> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!
-
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!
-
+**Listen to the full interview here:** [Why it matters if the ocean around NZ gets warmer](https://www.rnz.co.nz/national/programmes/afternoons/audio/2019020906/why-it-matters-if-the-ocean-around-nz-gets-warmer)

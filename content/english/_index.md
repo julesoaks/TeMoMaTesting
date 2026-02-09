@@ -2,7 +2,7 @@
 # Banner (Mapped from your Hero Block)
 banner:
   title: "Welcome to Te Moana Mahana"
-  content: "Impacts of ocean change on climate resilience for Aotearoa."
+  content: "Ocean change forecasting for climate resilience in Aotearoa"
   image: "/images/mitaBay.png"
   button:
     enable: true

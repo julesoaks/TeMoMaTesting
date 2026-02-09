@@ -61,15 +61,17 @@
     </div>
     {{ end }}
 
+    {{ $filterByAuthor := where site.RegularPages "Params.author" "==" .Title }}
+
+    {{ if gt (len $filterByAuthor) 0 }}
     <div class="row pb-16 pt-14 text-center sm:text-center lg:text-left">
       <h3 class="h3 mb-5 font-bold">Recent Blog Posts</h3>
-      {{ $filterByAuthor := where site.RegularPages "Params.author" "==" .Title }}
       {{ range $filterByAuthor }}
       <div class="md:col-6 lg:col-4 mb-12 text-left">
         {{ partial "components/blog-card" . }}
       </div>
       {{ end }}
     </div>
-  </div>
+    {{ end }}  </div>
 </section>
 {{ end }}
