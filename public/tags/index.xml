@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Te Moana Mahana</title>
-    <link>//localhost:1313///julesoaks.github.io/TeMoMaTesting/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on Te Moana Mahana</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 04 Jan 2026 05:00:00 +0000</lastBuildDate>
-    <atom:link href="//localhost:1313///julesoaks.github.io/TeMoMaTesting/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Nextjs</title>
-      <link>//localhost:1313///julesoaks.github.io/TeMoMaTesting/tags/nextjs/</link>
+      <link>http://localhost:1313/tags/nextjs/</link>
       <pubDate>Sun, 04 Jan 2026 05:00:00 +0000</pubDate>
-      <guid>//localhost:1313///julesoaks.github.io/TeMoMaTesting/tags/nextjs/</guid>
+      <guid>http://localhost:1313/tags/nextjs/</guid>
       <description></description>
     </item>
     <item>
       <title>Tailwind</title>
-      <link>//localhost:1313///julesoaks.github.io/TeMoMaTesting/tags/tailwind/</link>
+      <link>http://localhost:1313/tags/tailwind/</link>
       <pubDate>Sun, 04 Jan 2026 05:00:00 +0000</pubDate>
-      <guid>//localhost:1313///julesoaks.github.io/TeMoMaTesting/tags/tailwind/</guid>
+      <guid>http://localhost:1313/tags/tailwind/</guid>
       <description></description>
     </item>
     <item>
       <title>Software</title>
-      <link>//localhost:1313///julesoaks.github.io/TeMoMaTesting/tags/software/</link>
+      <link>http://localhost:1313/tags/software/</link>
       <pubDate>Mon, 04 Apr 2022 05:00:00 +0000</pubDate>
-      <guid>//localhost:1313///julesoaks.github.io/TeMoMaTesting/tags/software/</guid>
+      <guid>http://localhost:1313/tags/software/</guid>
       <description></description>
     </item>
     <item>
       <title>Technology</title>
-      <link>//localhost:1313///julesoaks.github.io/TeMoMaTesting/tags/technology/</link>
+      <link>http://localhost:1313/tags/technology/</link>
       <pubDate>Mon, 04 Apr 2022 05:00:00 +0000</pubDate>
-      <guid>//localhost:1313///julesoaks.github.io/TeMoMaTesting/tags/technology/</guid>
+      <guid>http://localhost:1313/tags/technology/</guid>
       <description></description>
     </item>
   </channel>

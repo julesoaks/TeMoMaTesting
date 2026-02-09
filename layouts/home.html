@@ -63,19 +63,21 @@
           <p class="mb-10 text-white/90 text-xl">
             {{ .content | markdownify }}
           </p>
-
           <div class="flex flex-wrap justify-center gap-4">
-            {{ with .Params.button }}
-            {{ if .enable }}
-            <a class="btn-glass" href="{{ .link | relLangURL }}">
-              {{ .label }}
-            </a>
+            {{ with .button }}
+              {{ if .enable }}
+                {{ $latest_post := index (where site.RegularPages "Section" "blog") 0 }}
+                {{ if $latest_post }}
+                  <a class="btn-glass" href="{{ $latest_post.RelPermalink }}">
+                    {{ .label }}
+                  </a>
+                {{ else }}
+                  <a class="btn-glass" href="{{ "blog" | relLangURL }}">
+                    {{ .label }}
+                  </a>
+                {{ end }}
+              {{ end }}
             {{ end }}
-            {{ end }}
-
-            <a href="{{ "blog" | relLangURL}}" class="btn-glass">
-              Read our latest update
-            </a>
           </div>
         </div>
       </div>

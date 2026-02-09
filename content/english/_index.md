@@ -4,7 +4,10 @@ banner:
   title: "Welcome to Te Moana Mahana"
   content: "Impacts of ocean change on climate resilience for Aotearoa."
   image: "/images/mitaBay.png"
-  button: false
+  button:
+    enable: true
+    link: "blog"
+    label: "Read our latest update"
 
 # Features (Repurposed for Stats and About sections)
 features:

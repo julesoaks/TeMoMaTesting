@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Project Updates on Te Moana Mahana</title>
-    <link>//localhost:1313///julesoaks.github.io/TeMoMaTesting/blog/</link>
+    <link>http://localhost:1313/blog/</link>
     <description>Recent content in Project Updates on Te Moana Mahana</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 04 Jan 2026 05:00:00 +0000</lastBuildDate>
-    <atom:link href="//localhost:1313///julesoaks.github.io/TeMoMaTesting/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 08 Feb 2026 05:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Test Post #1</title>
-      <link>//localhost:1313///julesoaks.github.io/TeMoMaTesting/blog/post-1/</link>
-      <pubDate>Sun, 04 Jan 2026 05:00:00 +0000</pubDate>
-      <guid>//localhost:1313///julesoaks.github.io/TeMoMaTesting/blog/post-1/</guid>
+      <title>How to build an Application with modern Technology</title>
+      <link>http://localhost:1313/blog/post-3/</link>
+      <pubDate>Sun, 08 Feb 2026 05:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/post-3/</guid>
       <description>&lt;p&gt;Nemo vel ad consectetur namut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>How to build an Application with modern Technology</title>
-      <link>//localhost:1313///julesoaks.github.io/TeMoMaTesting/blog/post-3/</link>
-      <pubDate>Mon, 04 Apr 2022 05:00:00 +0000</pubDate>
-      <guid>//localhost:1313///julesoaks.github.io/TeMoMaTesting/blog/post-3/</guid>
+      <title>Test Post #1</title>
+      <link>http://localhost:1313/blog/post-1/</link>
+      <pubDate>Sun, 04 Jan 2026 05:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/post-1/</guid>
       <description>&lt;p&gt;Nemo vel ad consectetur namut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Test Post #2</title>
-      <link>//localhost:1313///julesoaks.github.io/TeMoMaTesting/blog/post-2/</link>
+      <link>http://localhost:1313/blog/post-2/</link>
       <pubDate>Mon, 04 Apr 2022 05:00:00 +0000</pubDate>
-      <guid>//localhost:1313///julesoaks.github.io/TeMoMaTesting/blog/post-2/</guid>
+      <guid>http://localhost:1313/blog/post-2/</guid>
       <description>&lt;p&gt;Nemo vel ad consectetur namut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.&lt;/p&gt;</description>
     </item>
   </channel>
