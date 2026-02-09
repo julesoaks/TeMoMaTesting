@@ -799,7 +799,7 @@
 
     <main>
       
-  <section>
+<section>
   <div class="container text-center">
     <div
       class="from-body to-light dark:from-darkmode-body dark:to-darkmode-light rounded-2xl bg-gradient-to-b px-8 py-14">
@@ -810,17 +810,249 @@
 </section>
 
 
+<section class="section">
+  <div class="container">
+    
+    <div class="mb-8 lg:hidden container">
+      <button id="toggle-sidebar-mobile" class="btn-glass py-3 px-4 flex justify-between items-center">
+        <span>Filters</span>
+        <i id="sidebar-chevron" class="fa fa-chevron-down w-5 h-5 transition-transform duration-300">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+        </i>
+      </button>
 
-  <section class="section">
-    <div class="container">
-      <div class="row gx-5">
+      <div id="mobile-sidebar-content" class="mt-2 overflow-hidden transition-all duration-300 max-h-0 lg:max-h-screen">
         
-        <div class="lg:col-8">
-          <div class="row">
-            
-            
-              <div class="md:col-6 mb-14">
-                <div class="blog-card-glass relative h-full overflow-hidden flex flex-col group">
+        
+        <aside class="sticky-sidebar-container space-y-6">
+  
+    <div class="sidebar-glass-wrapper p-6 transition-all duration-300">
+      
+  <h5 class="mb-4 font-bold tracking-widest">
+    Categories
+  </h5>
+  <ul class="space-y-2"> 
+    
+      <li>
+        <a href="/categories/application/"
+           class="pill-glass flex justify-between items-center">
+          <span class="text-sm font-medium">Application</span>
+          <span class="text-[10px] font-bold">
+            1
+          </span>
+        </a>
+      </li>
+    
+      <li>
+        <a href="/categories/data/"
+           class="pill-glass flex justify-between items-center">
+          <span class="text-sm font-medium">Data</span>
+          <span class="text-[10px] font-bold">
+            2
+          </span>
+        </a>
+      </li>
+    
+      <li>
+        <a href="/categories/software/"
+           class="pill-glass flex justify-between items-center">
+          <span class="text-sm font-medium">Software</span>
+          <span class="text-[10px] font-bold">
+            1
+          </span>
+        </a>
+      </li>
+    
+      <li>
+        <a href="/categories/technology/"
+           class="pill-glass flex justify-between items-center">
+          <span class="text-sm font-medium">Technology</span>
+          <span class="text-[10px] font-bold">
+            1
+          </span>
+        </a>
+      </li>
+    
+  </ul>
+
+
+    </div>
+  
+    <div class="sidebar-glass-wrapper p-6 transition-all duration-300">
+      
+  <h5 class="mb-4 font-bold tracking-widest">
+    Tags
+  </h5>
+  <ul class="flex flex-wrap gap-2"> 
+    
+      <li>
+        <a href="/tags/nextjs/"
+           class="pill-glass flex items-center gap-2 !px-3 !py-1.5 transition-all duration-300 ">
+          <span class="text-sm font-medium">Nextjs</span>
+          <span class="text-[10px] font-bold">
+              1
+          </span>
+        </a>
+      </li>
+    
+      <li>
+        <a href="/tags/software/"
+           class="pill-glass flex items-center gap-2 !px-3 !py-1.5 transition-all duration-300 ">
+          <span class="text-sm font-medium">Software</span>
+          <span class="text-[10px] font-bold">
+              1
+          </span>
+        </a>
+      </li>
+    
+      <li>
+        <a href="/tags/tailwind/"
+           class="pill-glass flex items-center gap-2 !px-3 !py-1.5 transition-all duration-300 ">
+          <span class="text-sm font-medium">Tailwind</span>
+          <span class="text-[10px] font-bold">
+              3
+          </span>
+        </a>
+      </li>
+    
+      <li>
+        <a href="/tags/technology/"
+           class="pill-glass flex items-center gap-2 !px-3 !py-1.5 transition-all duration-300 ">
+          <span class="text-sm font-medium">Technology</span>
+          <span class="text-[10px] font-bold">
+              1
+          </span>
+        </a>
+      </li>
+    
+  </ul>
+
+    </div>
+  
+</aside>
+      </div>
+    </div>
+
+    <div class="row gx-5">
+      
+      <div class="lg:col-4 hidden lg:block">
+        
+        
+        <aside class="sticky-sidebar-container space-y-6">
+  
+    <div class="sidebar-glass-wrapper p-6 transition-all duration-300">
+      
+  <h5 class="mb-4 font-bold tracking-widest">
+    Categories
+  </h5>
+  <ul class="space-y-2"> 
+    
+      <li>
+        <a href="/categories/application/"
+           class="pill-glass flex justify-between items-center">
+          <span class="text-sm font-medium">Application</span>
+          <span class="text-[10px] font-bold">
+            1
+          </span>
+        </a>
+      </li>
+    
+      <li>
+        <a href="/categories/data/"
+           class="pill-glass flex justify-between items-center">
+          <span class="text-sm font-medium">Data</span>
+          <span class="text-[10px] font-bold">
+            2
+          </span>
+        </a>
+      </li>
+    
+      <li>
+        <a href="/categories/software/"
+           class="pill-glass flex justify-between items-center">
+          <span class="text-sm font-medium">Software</span>
+          <span class="text-[10px] font-bold">
+            1
+          </span>
+        </a>
+      </li>
+    
+      <li>
+        <a href="/categories/technology/"
+           class="pill-glass flex justify-between items-center">
+          <span class="text-sm font-medium">Technology</span>
+          <span class="text-[10px] font-bold">
+            1
+          </span>
+        </a>
+      </li>
+    
+  </ul>
+
+
+    </div>
+  
+    <div class="sidebar-glass-wrapper p-6 transition-all duration-300">
+      
+  <h5 class="mb-4 font-bold tracking-widest">
+    Tags
+  </h5>
+  <ul class="flex flex-wrap gap-2"> 
+    
+      <li>
+        <a href="/tags/nextjs/"
+           class="pill-glass flex items-center gap-2 !px-3 !py-1.5 transition-all duration-300 ">
+          <span class="text-sm font-medium">Nextjs</span>
+          <span class="text-[10px] font-bold">
+              1
+          </span>
+        </a>
+      </li>
+    
+      <li>
+        <a href="/tags/software/"
+           class="pill-glass flex items-center gap-2 !px-3 !py-1.5 transition-all duration-300 ">
+          <span class="text-sm font-medium">Software</span>
+          <span class="text-[10px] font-bold">
+              1
+          </span>
+        </a>
+      </li>
+    
+      <li>
+        <a href="/tags/tailwind/"
+           class="pill-glass flex items-center gap-2 !px-3 !py-1.5 transition-all duration-300 ">
+          <span class="text-sm font-medium">Tailwind</span>
+          <span class="text-[10px] font-bold">
+              3
+          </span>
+        </a>
+      </li>
+    
+      <li>
+        <a href="/tags/technology/"
+           class="pill-glass flex items-center gap-2 !px-3 !py-1.5 transition-all duration-300 ">
+          <span class="text-sm font-medium">Technology</span>
+          <span class="text-[10px] font-bold">
+              1
+          </span>
+        </a>
+      </li>
+    
+  </ul>
+
+    </div>
+  
+</aside>
+      </div>
+
+      
+      <div class="lg:col-8 order-last lg:order-first">
+        <div class="row">
+          
+          
+          <div class="md:col-6 mb-14">
+            <div class="blog-card-glass relative h-full overflow-hidden flex flex-col group">
   
   
   <div class="blog-card-img-wrapper">
@@ -963,10 +1195,10 @@
     </div>
   </div>
 </div>
-              </div>
-            
-              <div class="md:col-6 mb-14">
-                <div class="blog-card-glass relative h-full overflow-hidden flex flex-col group">
+          </div>
+          
+          <div class="md:col-6 mb-14">
+            <div class="blog-card-glass relative h-full overflow-hidden flex flex-col group">
   
   
   <div class="blog-card-img-wrapper">
@@ -1109,10 +1341,10 @@
     </div>
   </div>
 </div>
-              </div>
-            
-              <div class="md:col-6 mb-14">
-                <div class="blog-card-glass relative h-full overflow-hidden flex flex-col group">
+          </div>
+          
+          <div class="md:col-6 mb-14">
+            <div class="blog-card-glass relative h-full overflow-hidden flex flex-col group">
   
   
   <div class="blog-card-img-wrapper">
@@ -1255,136 +1487,59 @@
     </div>
   </div>
 </div>
-              </div>
-            
           </div>
           
-
-
-
-
-
-
-
-
-
-
-
         </div>
         
-        <div class="lg:col-4">
-          
-          
-          <aside class="sticky-sidebar-container space-y-6">
-  
-    <div class="sidebar-glass-wrapper p-6 transition-all duration-300">
-      
-  <h5 class="mb-4 font-bold tracking-widest">
-    Categories
-  </h5>
-  <ul class="space-y-2"> 
-    
-      <li>
-        <a href="/categories/application/"
-           class="pill-glass flex justify-between items-center">
-          <span class="text-sm font-medium">Application</span>
-          <span class="text-[10px] font-bold">
-            1
-          </span>
-        </a>
-      </li>
-    
-      <li>
-        <a href="/categories/data/"
-           class="pill-glass flex justify-between items-center">
-          <span class="text-sm font-medium">Data</span>
-          <span class="text-[10px] font-bold">
-            2
-          </span>
-        </a>
-      </li>
-    
-      <li>
-        <a href="/categories/software/"
-           class="pill-glass flex justify-between items-center">
-          <span class="text-sm font-medium">Software</span>
-          <span class="text-[10px] font-bold">
-            1
-          </span>
-        </a>
-      </li>
-    
-      <li>
-        <a href="/categories/technology/"
-           class="pill-glass flex justify-between items-center">
-          <span class="text-sm font-medium">Technology</span>
-          <span class="text-[10px] font-bold">
-            1
-          </span>
-        </a>
-      </li>
-    
-  </ul>
 
 
-    </div>
-  
-    <div class="sidebar-glass-wrapper p-6 transition-all duration-300">
-      
-  <h5 class="mb-4 font-bold tracking-widest">
-    Tags
-  </h5>
-  <ul class="flex flex-wrap gap-2"> 
-    
-      <li>
-        <a href="/tags/nextjs/"
-           class="pill-glass flex items-center gap-2 !px-3 !py-1.5 transition-all duration-300 ">
-          <span class="text-sm font-medium">Nextjs</span>
-          <span class="text-[10px] font-bold">
-              1
-          </span>
-        </a>
-      </li>
-    
-      <li>
-        <a href="/tags/software/"
-           class="pill-glass flex items-center gap-2 !px-3 !py-1.5 transition-all duration-300 ">
-          <span class="text-sm font-medium">Software</span>
-          <span class="text-[10px] font-bold">
-              1
-          </span>
-        </a>
-      </li>
-    
-      <li>
-        <a href="/tags/tailwind/"
-           class="pill-glass flex items-center gap-2 !px-3 !py-1.5 transition-all duration-300 ">
-          <span class="text-sm font-medium">Tailwind</span>
-          <span class="text-[10px] font-bold">
-              3
-          </span>
-        </a>
-      </li>
-    
-      <li>
-        <a href="/tags/technology/"
-           class="pill-glass flex items-center gap-2 !px-3 !py-1.5 transition-all duration-300 ">
-          <span class="text-sm font-medium">Technology</span>
-          <span class="text-[10px] font-bold">
-              1
-          </span>
-        </a>
-      </li>
-    
-  </ul>
 
-    </div>
-  
-</aside>
-        </div>
+
+
+
+
+
+
+
+
       </div>
     </div>
-  </section>
+  </div>
+</section>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const toggleBtn = document.getElementById('toggle-sidebar-mobile');
+    const sidebarContent = document.getElementById('mobile-sidebar-content');
+    const chevron = document.getElementById('sidebar-chevron');
+
+    if (toggleBtn && sidebarContent) {
+      toggleBtn.addEventListener('click', function () {
+        const isOpen = sidebarContent.classList.contains('max-h-0');
+
+        if (isOpen) {
+          
+          sidebarContent.classList.remove('max-h-0');
+          sidebarContent.style.maxHeight = sidebarContent.scrollHeight + 'px';
+          chevron.classList.add('rotate-180');
+          toggleBtn.classList.add('active-btn-glass');
+        } else {
+          
+          sidebarContent.style.maxHeight = '0';
+          chevron.classList.remove('rotate-180');
+          toggleBtn.classList.remove('activate-btn-glass');
+
+          
+          setTimeout(() => {
+            if (!sidebarContent.classList.contains('max-h-0')) {
+              sidebarContent.classList.add('max-h-0');
+            }
+          }, 300);
+        }
+      });
+    }
+  });
+</script>
 
     </main>
 

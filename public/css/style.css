@@ -327,6 +327,12 @@
   .order-3 {
     order: 3;
   }
+  .order-last {
+    order: 13;
+  }
+  .order-last {
+    order: 9999;
+  }
   .col-6 {
     grid-column: 6;
   }
@@ -380,6 +386,9 @@
       padding-left: calc(var(--bs-gutter-x) / 2);
       margin-top: var(--bs-gutter-y);
     }
+  }
+  .mt-2 {
+    margin-top: calc(var(--spacing) * 2);
   }
   .mt-4 {
     margin-top: calc(var(--spacing) * 4);
@@ -605,6 +614,9 @@
   .h-4 {
     height: calc(var(--spacing) * 4);
   }
+  .h-5 {
+    height: calc(var(--spacing) * 5);
+  }
   .h-6 {
     height: calc(var(--spacing) * 6);
   }
@@ -619,6 +631,9 @@
   }
   .h-full {
     height: 100%;
+  }
+  .max-h-0 {
+    max-height: calc(var(--spacing) * 0);
   }
   .col-6 {
     flex: 0 0 auto;
@@ -662,6 +677,9 @@
   }
   .w-4 {
     width: calc(var(--spacing) * 4);
+  }
+  .w-5 {
+    width: calc(var(--spacing) * 5);
   }
   .w-75 {
     width: calc(var(--spacing) * 75);
@@ -946,6 +964,9 @@
   }
   .py-2 {
     padding-block: calc(var(--spacing) * 2);
+  }
+  .py-3 {
+    padding-block: calc(var(--spacing) * 3);
   }
   .py-7 {
     padding-block: calc(var(--spacing) * 7);
@@ -1241,6 +1262,11 @@
       }
     }
   }
+  .sm\:col-1 {
+    @media (width >= 40rem) {
+      grid-column: 1;
+    }
+  }
   .sm\:col-10 {
     @media (width >= 40rem) {
       grid-column: 10;
@@ -1266,6 +1292,12 @@
       height: 30px;
     }
   }
+  .sm\:col-1 {
+    @media (width >= 40rem) {
+      flex: 0 0 auto;
+      width: 8.333333333333334%;
+    }
+  }
   .sm\:col-10 {
     @media (width >= 40rem) {
       flex: 0 0 auto;
@@ -1275,6 +1307,11 @@
   .sm\:w-max {
     @media (width >= 40rem) {
       width: max-content;
+    }
+  }
+  .sm\:gap-6 {
+    @media (width >= 40rem) {
+      gap: calc(var(--spacing) * 6);
     }
   }
   .sm\:bg-red-200 {
@@ -1444,6 +1481,16 @@
       order: 1;
     }
   }
+  .lg\:order-first {
+    @media (width >= 64rem) {
+      order: -1;
+    }
+  }
+  .lg\:order-first {
+    @media (width >= 64rem) {
+      order: -9999;
+    }
+  }
   .lg\:col-3 {
     @media (width >= 64rem) {
       grid-column: 3;
@@ -1479,6 +1526,11 @@
       margin-top: calc(var(--spacing) * 0);
     }
   }
+  .lg\:mr-1 {
+    @media (width >= 64rem) {
+      margin-right: calc(var(--spacing) * 1);
+    }
+  }
   .lg\:mb-0 {
     @media (width >= 64rem) {
       margin-bottom: calc(var(--spacing) * 0);
@@ -1512,6 +1564,11 @@
   .lg\:h-\[80px\] {
     @media (width >= 64rem) {
       height: 80px;
+    }
+  }
+  .lg\:max-h-screen {
+    @media (width >= 64rem) {
+      max-height: 100vh;
     }
   }
   .lg\:col-3 {
