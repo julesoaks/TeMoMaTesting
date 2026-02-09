@@ -23,6 +23,6 @@ features:
       - "Forecasting ocean surface temperatures"
     button:
       enable: true
-      link: "/about"
+      link: "about"
       label: "Find out more about the project!"
 ---

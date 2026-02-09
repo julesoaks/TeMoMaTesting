@@ -67,13 +67,13 @@
           <div class="flex flex-wrap justify-center gap-4">
             {{ with .Params.button }}
             {{ if .enable }}
-            <a class="btn-glass" href="{{ .link | absURL }}">
+            <a class="btn-glass" href="{{ .link | relLangURL }}">
               {{ .label }}
             </a>
             {{ end }}
             {{ end }}
 
-            <a href="{{ "blog" | relURL}}" class="btn-glass">
+            <a href="{{ "blog" | relLangURL}}" class="btn-glass">
               Read our latest update
             </a>
           </div>
@@ -116,7 +116,7 @@
         {{ with .button }}
         {{ if .enable }}
         <div class="text-center sm:text-center lg:text-left">
-          <a class="btn-glass mt-6 sm:mx-auto sm:block sm:w-max" href="{{ .link | relURL }}">
+          <a class="btn-glass mt-6 sm:mx-auto sm:block sm:w-max" href="{{ .link | relLangURL }}">
             {{ .label }}
             <i class="fa fa-arrow-right pl-2"></i>
           </a>
