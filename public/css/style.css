@@ -1349,11 +1349,6 @@
       order: 2;
     }
   }
-  .md\:col-1 {
-    @media (width >= 48rem) {
-      grid-column: 1;
-    }
-  }
   .md\:col-4 {
     @media (width >= 48rem) {
       grid-column: 4;
@@ -1407,12 +1402,6 @@
   .md\:h-\[60px\] {
     @media (width >= 48rem) {
       height: 60px;
-    }
-  }
-  .md\:col-1 {
-    @media (width >= 48rem) {
-      flex: 0 0 auto;
-      width: 8.333333333333334%;
     }
   }
   .md\:col-4 {

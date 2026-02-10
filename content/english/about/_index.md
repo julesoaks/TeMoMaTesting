@@ -59,70 +59,55 @@ supporting_orgs:
       logo: "images/orgs/ur.png"
 about_sections:
   - title: "Ocean at the Edge"
-    image: "images/mitaOcean.png"
+    image: "images/mitaOcean-small.png"
     content: |
-      This research initiative aims to understand and predict the rapid warming of AoNZs regional oceans, which are currently heating at twice the global average. By integrating satellite data, robotic floats, and shipboard surveys with the innovative BlueMaps data assimilation technique, the project seeks to map the complex heat exchange between the deep and coastal oceans.
+      This project investigates where and why our regional oceans are warming. By integrating satellite data, robotic floats, and shipboard surveys with the innovative BlueMaps data assimilation technique, the project will map heat in the region and the connection between the deep and coastal oceans.
+      
+      Key outcomes include:
 
-      Key processes include:
+      - **Deep Ocean Temperature Changes and Driving Mechanisms:** Combine measurements using new mapping techniques and investigate how ocean currents, wind patterns, and bathymetry influence heat storage and transport.
 
-      - **Data Integration:** Combining existing deep-ocean observations with new data from fishing vessels (Mangōpare programme) and ocean glider transects.
-
-      - **Mechanistic Analysis:** Investigating how ocean currents, wind patterns, and bathymetry (like canyons and banks) influence heat storage and transport.
-
-      - **Predictive Modeling:** Developing a high-efficiency coastal and regional ocean reanalysis to identify "thermal refugia" and "hot spots," ultimately providing the first reliable predictability for sea surface temperatures in the region.
+      - **Coastal Ocean Temperatures:** Developing a high-resolution coastal reanalysis from the Maui glider surveys and data collected from fishing vessels (collected by the Mangōpare programme) to identify the coastal “heatscape”.
   - title: "Ocean of the Future"
-    image: "images/boatOcean.png"
+    image: "images/boatOcean-small.png"
     content: |
-      This research focuses on bridging the gap between global climate trends and their specific impacts on AoNZ by refining coarse global data into high-resolution regional forecasts. By downscaling CMIP7 global simulations, the project will account for the unique influence of AoNZ’s rugged topography and complex seafloor (bathymetry) on weather and ocean behavior.
+     This project brings global climate information to the finer scales needed for decisions in Aotearoa New Zealand.
+    
+      Key outcomes include:
 
-      Key processes include:
-
-      - **High-Resolution Downscaling:** Transforming global projections into localized models to resolve narrow ocean currents and regional temperature extremes that global models miss.
-
-      - **Machine Learning Forecasters:** Using "past analogues"—searching historical data for patterns similar to current conditions—to predict sea surface temperatures (SST) and quantify uncertainty.
-
-      - **Coupled Weather Modeling:** Simulating the interaction between the atmosphere and a warming ocean at scales under 100km to understand how ocean heat strengthens "atmospheric rivers," tropical cyclones, and extreme rainfall.
-
-      - **Sensitivity Assessment:** Testing how evolving coastal temperatures during a storm can modify the severity and path of weather events as they make landfall.
+      - **High-Resolution Ocean Downscaling:** Transforming global projections of the ocean into local projections by resolving the narrow ocean currents and regional temperature extremes that global models miss.
+      
+      - **Machine Learning Forecasts for Sea Surface Temperature:** Using “past analogues”—searching historical data for patterns similar to current conditions—to predict sea surface temperatures (SST) and quantify uncertainty.
+      
+      - **Coupled Weather Modeling of storm and coastal ocean interactions:** Simulating the interaction between the atmosphere and a warming ocean at scales under 100km to understand how ocean heat strengthens “atmospheric rivers,” tropical cyclones, and extreme rainfall and how evolving coastal temperatures during a storm can modify the severity and path of weather events as they make landfall.
   - title: "Ocean Impacts"
-    image: "images/planeOcean.png"
+    image: "images/planeOcean-small.png"
     content: |
-      This initiative examines how shifts in ocean physics—such as warming and stratification—alter the biological health of AoNZ’s waters. By focusing on the Hauraki Gulf and Otago Shelf, the research explores how extreme weather like tropical cyclones and marine heatwaves impacts essential life-support systems: oxygen levels and nutrient availability.
+     This initiative examines how shifts in ocean physics—such as warming and freshwater runoff—alter the oxygen and nutrients in our ocean that underpin biological health. 
 
-      Key processes include:
+      Key outcomes include:
 
-      - **Nutrient Cycling via Cyclones:** Investigating how strengthening tropical cyclones pull nutrient-rich deep water to the surface, triggering phytoplankton blooms in otherwise "nutrient-poor" (oligotrophic) waters.
+      - **Nutrient Cycling via Cyclones:** Investigating how strengthening tropical cyclones pull nutrient-rich deep water to the surface, triggering phytoplankton blooms in nutrient-poor regions.
 
-      - **Deoxygenation Pathways:** Tracking how warming subsurface waters hold less dissolved oxygen, creating "low oxygen zones" that threaten the survival of fish and marine bacteria.
+      - **Deoxygenation Pathways:** Tracking how waters with less dissolved oxygen move below the surface to create low oxygen zones that threaten the survival of fish and marine bacteria.
 
-      - **Ocean Stratification:** Analyzing how marine heatwaves create "layers" in the ocean that prevent the mixing of oxygen and nutrients, essentially isolating different parts of the water column.
-
-      - **Coastal Run-off Dynamics:** Using simulations to assess how extreme rainfall events flush suspended sediment and land-based nutrients into the coastal ocean, altering salinity and water clarity.
-
+      - **Impacts of Extreme Events in the Coastal Ocean:** Impacts of weather events will be investigated in detail in two coastal areas, the Hauraki Gulf and the Otago Shelf, with new measurements and high-resolution, numerical simulations of the ocean physical and biogeochemical properties.
   - title: "Ocean Connections"
-    image: "images/whatipuOcean.png"
+    image: "images/whatipuOcean-small.png"
     content: |
-      This initiative focuses on the human dimension of climate change, emphasizing that scientific data must be integrated with societal values to be effective. By connecting ocean-atmosphere research with the lived experiences of coastal communities, iwi, and hapū, the project aims to create adaptive resource management strategies that protect both economic and non-economic interests.
+      This project connects the ocean and atmosphere to societal values and experiences to enhance resource management and decision-making at local, regional and national scales.
 
-      Key processes include:
+      Key outcomes include:
 
-      - **Value-Based Decision Making:** Quantifying "non-economic loss and damage" by incorporating social, cultural, and environmental values into climate planning.
+      - **Managing for future ocean risks:** An analysis of coastal policies and plans currently in place will assess strategies and identity opportunities to incorporate ocean observations.
 
-      - **Community Engagement:** Capturing the lived experiences of those in coastal areas to ensure interventions are locally relevant and responsive.
+      - **Community Engagement:** Capturing the lived experiences of those in coastal areas through co-creation workshops.
 
-      - **Cross-Sector Integration:** Embedding findings into the workflows of national organizations to improve forecasting for agriculture, aquaculture, and emergency management.
-
-      - **Localized Adaptation:** Developing resource management tools that empower local authorities, iwi, and hapū to respond to specific regional risks.
+      - **Co-develop science communication:** Guidance and narratives will be co-developed with stakeholders, incorporating information from the project and resourcing decision-makers.
 layout: "about"
 draft: false
 ---
 
-The ocean around Aotearoa New Zealand (AoNZ) is warming at twice the global rate,
-fuelling weather systems and changing the ocean near the coast. New Zealand
-is unprepared for the changes a warming ocean brings to extreme weather and
-the coastal ocean.
+The ocean around Aotearoa New Zealand is warming faster than the global rate, fuelling weather systems and changing the ocean near the coast. Aotearoa New Zealand is currently unprepared for the changes a warming ocean brings.
 
-This project is creating next generation tools needed for climate-related
-decisions by providing novel observations, projections, and forecasting
-of ocean temperatures and assessing the modification of extreme weather through
-the following deliverables:
+Our project is creating the next generation tools needed for climate-related decisions by providing novel observations, projections, and forecasting of ocean temperatures and assessing the modification of extreme weather through the following projects:
