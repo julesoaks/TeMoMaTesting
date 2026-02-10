@@ -814,8 +814,21 @@
     <div class="container">
       <div class="row justify-center">
         <div class="lg:col-10">
-          <div class="content">
-            <div class="glider-map-glass">
+          <div class="content text-center lg:text-left">
+            <h1 id="the-glider-is-being-prepared">The glider is being prepared!</h1>
+<p>Updates on the glide mission will be available once it is underway. These updates will be added into the map below!</p>
+<p>In the meantime, have a look at the following link that show what a glider is and how it works.</p>
+<p><strong>See the Earth Science New Zealand Page on Ocean Gliders here:</strong> <a href="https://niwa.co.nz/oceans/ocean-gliders"
+
+
+
+
+ target="_blank"
+ 
+
+
+>Ocean Gliders</a></p>
+<div class="glider-map-glass">
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
   
   <div class="flex justify-center w-full">
@@ -848,7 +861,7 @@
       
       const map = L.map('gliderMap', {
           zoomControl: false 
-      }).setView([-37.4, 173.8], 8);
+      }).setView([-41.3015937, 174.8050662], 8);
   
       
       L.control.zoom({
@@ -904,10 +917,10 @@
       
       const popupContent = `
         <div style="font-family: sans-serif; padding: 5px;">
-          <h3 style="margin: 0 0 5px 0; color: #333;">Glider Unit: 1</h3>
-          <p style="margin: 2px 0;"><strong>Status:</strong> Active</p>
-          <p style="margin: 2px 0;"><strong>Battery:</strong> 84%</p>
-          <p style="margin: 2px 0;"><strong>Last Update:</strong> Just now</p>
+          <h3 style="margin: 0 0 5px 0; color: #333;">Glider</h3>
+          <p style="margin: 2px 0;"><strong>Status:</strong> Unactive</p>
+          <p style="margin: 2px 0;"><strong>Battery:</strong> 100%</p>
+          <p style="margin: 2px 0;"><strong>Last Update:</strong> N/A</p>
         </div>
       `;
   
@@ -919,11 +932,9 @@
       async function updateGlider() {
         try {
           const mockData = {
-            lat: -37.9, 
-            lng: 173.6,
-            history: [
-              [-36.5, 173.4], [-37.0, 173.0], [-37.2, 173.6], [-37.4, 173.8], [-38.0, 173.8], [-37.9, 173.6]
-            ]
+            lat: -41.3015937, 
+            lng: 174.8050662,
+            history: []
           };
   
           const history = mockData.history;
@@ -978,6 +989,7 @@
   </script>
 
 </div>
+
           </div>
         </div>
       </div>
@@ -1103,8 +1115,10 @@
             <li class="m-3 inline-block">
               <a
                 
+                  target="_blank" rel="noopener"
+                
                 href="
-                  /https/www.auckland.ac.nz/en/copyright.html
+                  https://www.auckland.ac.nz/en/copyright.html
                 "
                 >Copyright</a
               >

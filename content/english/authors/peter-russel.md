@@ -1,5 +1,5 @@
 ---
-title: "Peter Russel"
+title: "Pete Russel"
 last_name: "Russel"
 designation: "Key Researcher"
 user_groups: "Key Researchers"

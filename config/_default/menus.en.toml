@@ -29,7 +29,7 @@ weight = 5
 # footer menu
 [[footer]]
 name = "Copyright"
-url = "/https://www.auckland.ac.nz/en/copyright.html"
+url = "https://www.auckland.ac.nz/en/copyright.html"
 weight = 1
 
 [[footer]]

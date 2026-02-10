@@ -65,9 +65,9 @@
   </url><url>
     <loc>http://localhost:1313/pages/</loc>
   </url><url>
-    <loc>http://localhost:1313/authors/peter-oke/</loc>
-  </url><url>
     <loc>http://localhost:1313/authors/peter-russel/</loc>
+  </url><url>
+    <loc>http://localhost:1313/authors/peter-oke/</loc>
   </url><url>
     <loc>http://localhost:1313/authors/phil-sutton/</loc>
   </url><url>

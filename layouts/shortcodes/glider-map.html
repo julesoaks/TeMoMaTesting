@@ -30,7 +30,7 @@
     // --- Updated Initialize Map ---
     const map = L.map('gliderMap', {
         zoomControl: false // Disable the default zoom control
-    }).setView([-37.4, 173.8], 8);
+    }).setView([-41.3015937, 174.8050662], 8);
 
     // Add it back to a different corner: 'topright', 'bottomleft', or 'bottomright'
     L.control.zoom({
@@ -86,10 +86,10 @@
     // Define placeholder content
     const popupContent = `
       <div style="font-family: sans-serif; padding: 5px;">
-        <h3 style="margin: 0 0 5px 0; color: #333;">Glider Unit: 1</h3>
-        <p style="margin: 2px 0;"><strong>Status:</strong> Active</p>
-        <p style="margin: 2px 0;"><strong>Battery:</strong> 84%</p>
-        <p style="margin: 2px 0;"><strong>Last Update:</strong> Just now</p>
+        <h3 style="margin: 0 0 5px 0; color: #333;">Glider</h3>
+        <p style="margin: 2px 0;"><strong>Status:</strong> Unactive</p>
+        <p style="margin: 2px 0;"><strong>Battery:</strong> 100%</p>
+        <p style="margin: 2px 0;"><strong>Last Update:</strong> N/A</p>
       </div>
     `;
 
@@ -101,11 +101,9 @@
     async function updateGlider() {
       try {
         const mockData = {
-          lat: -37.9, 
-          lng: 173.6,
-          history: [
-            [-36.5, 173.4], [-37.0, 173.0], [-37.2, 173.6], [-37.4, 173.8], [-38.0, 173.8], [-37.9, 173.6]
-          ]
+          lat: -41.3015937, 
+          lng: 174.8050662,
+          history: []
         };
 
         const history = mockData.history;

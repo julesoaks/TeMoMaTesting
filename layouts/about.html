@@ -20,7 +20,7 @@
   {{ range $index, $element := .Params.about_sections }}
   <section class="section-sm {{ if (modBool $index 2) }}bg-gradient{{ end }}">
     <div class="container">
-      <div class="row items-center">
+      <div class="row items-center text-center lg:text-left">
         <div class="md:col-5 {{ if (modBool $index 2) }}order-1{{ else }}order-1 md:order-2{{ end }} mb-8 md:mb-0">
           {{ partial "image" (dict "Src" .image "Context" $.Page "Alt" .title "Class" "rounded-lg shadow w-full" "Size" "500x") }}
         </div>

@@ -6,7 +6,6 @@ date: 2026-02-10T10:00:00+13:00
 image: "/images/blog/rnz-interview.png"
 header_theme: "dark"
 categories: ["Media"]
-author: "Julian Drake"
 tags: ["media", "interview", "update"]
 draft: false
 ---

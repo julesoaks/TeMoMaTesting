@@ -61,11 +61,12 @@
           </h1>
 
           <div class="flex flex-wrap justify-center gap-3">
-            <a href="{{ `authors/` | relLangURL }}{{ .Params.Author | urlize }}/" class="btn-glass">
+          {{ if .Params.author }}
+            <a href="{{ `authors/` | relLangURL }}{{ .Params.author | urlize }}/" class="btn-glass">
               <i class="fa-regular fa-circle-user mr-2"></i>
               <span class="text-sm font-medium">{{ .Params.author }}</span>
             </a>
-
+          {{ end }}
             {{ range .Params.categories }}
             <a href="{{ `categories/` | relLangURL }}{{ . | urlize | lower }}/" class="btn-glass">
               <i class="fa-regular fa-folder mr-2"></i>
