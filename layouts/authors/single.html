@@ -1,5 +1,5 @@
 {{ define "main" }}
-<section class="section-sm pb-0">
+<section class="section-sm">
   <div class="container">
     <div class="row items-center border-border dark:border-darkmode-border border-b pb-14">
 
@@ -32,7 +32,7 @@
         <div class="text-center sm:text-center lg:text-left">
           {{ range .Params.social }}
           <a href="{{ .link | safeURL }}" target="_blank" rel="noopener nofollow"
-            class="btn-glass flex flex-wrap gap-3 mt-8">
+            class="btn-glass flex flex-wrap gap-3 mt-8 mr-5 lg:mr-1 mb-4 lg:mr-1">
             <span class="sr-only">{{ .name }}</span>
             <i class="{{ .icon }}"></i>
             {{ if .text }}
@@ -64,7 +64,7 @@
     {{ $filterByAuthor := where site.RegularPages "Params.author" "==" .Title }}
 
     {{ if gt (len $filterByAuthor) 0 }}
-    <div class="row pb-16 pt-14 text-center sm:text-center lg:text-left">
+    <div class="row pt-14 text-center sm:text-center lg:text-left">
       <h3 class="h3 mb-5 font-bold">Recent Blog Posts</h3>
       {{ range $filterByAuthor }}
       <div class="md:col-6 lg:col-4 mb-12 text-left">
@@ -72,6 +72,7 @@
       </div>
       {{ end }}
     </div>
-    {{ end }}  </div>
+    {{ end }}
+  </div>
 </section>
 {{ end }}
