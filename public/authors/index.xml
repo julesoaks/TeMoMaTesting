@@ -19,7 +19,7 @@
       <link>http://localhost:1313/authors/alice-della-penna/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/authors/alice-della-penna/</guid>
-      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque semper, nulla quis varius dignissim, mauris nunc imperdiet eros, quis malesuada ipsum augue vitae orci.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Alice&amp;rsquo;s focus is on investigating how organisms and ecosystems are affected by the ocean’s dynamic environment. She is particularly interested on physical/biological interactions at spatio-temporal scales ranging from few to hundreds of kilometers and a few hours to months. She&amp;rsquo;s excited to learn how our understanding of these interactions can help us design conservation and management policies that fit the dynamic nature of coastal and open ocean regions.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Charine Collins</title>
@@ -96,7 +96,7 @@
       <link>http://localhost:1313/authors/mike-kittridge/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/authors/mike-kittridge/</guid>
-      <description>&lt;p&gt;I am a hydrologic and atmospheric scientist that is a strong proponent of scientific work being fully reproducible, easily testable, open-source, and extendable. I also design and build systems for managing large amounts of data, develop the scientific processing and analysis tools that sit on top of these systems to do the data science magic, and create the reporting tools to present the results in the most valuable way for users. I&amp;rsquo;ve had a varied career in the areas of clean(ish) freshwater science.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Mike is a hydrologic and atmospheric scientist that is a strong proponent of scientific work being fully reproducible, easily testable, open-source, and extendable. He also designs and builds systems for managing large amounts of data, develops the scientific processing and analysis tools that sit on top of these systems to do the data science magic, and creates the reporting tools to present the results in the most valuable way for users. He&amp;rsquo;s had a varied career in the areas of clean(ish) freshwater science.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Pete Russel</title>

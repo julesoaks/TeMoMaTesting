@@ -1,8 +1,8 @@
 ---
 title: "Jasmin McInerney"
 last_name: "McInerney"
-designation: "Key Researcher"
-user_groups: "Key Researchers"
+designation: "Glider Operations"
+user_groups: "Glider Operations"
 image: "images/team/avatar.png"
 social:
   - icon: "fa-brands fa-linkedin"

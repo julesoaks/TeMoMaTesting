@@ -32,12 +32,14 @@
       </a>
 
       <ul class="social-icons flex gap-2">
-        {{ range .Params.social }}
-          <li>
-            <a href="{{ .link | safeURL }}" target="_blank" rel="noopener nofollow" class="text-dark dark:text-white hover:text-primary transition-colors">
-              <i class="{{ .icon }} text-base"></i>
-            </a>
-          </li>
+        {{ if .Params.social }}
+          {{ range first 2 .Params.social }}
+            <li>
+              <a href="{{ .link | safeURL }}" target="_blank" rel="noopener nofollow" class="text-dark dark:text-white hover:text-primary transition-colors">
+                <i class="{{ .icon }} text-base"></i>
+              </a>
+            </li>
+          {{ end }}
         {{ end }}
       </ul>
     </div>
