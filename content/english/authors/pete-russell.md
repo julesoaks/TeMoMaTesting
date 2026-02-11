@@ -1,6 +1,6 @@
 ---
-title: "Pete Russel"
-last_name: "Russel"
+title: "Pete Russell"
+last_name: "Russell"
 designation: "Key Researcher"
 user_groups: "Key Researchers"
 image: "images/team/avatar.png"
