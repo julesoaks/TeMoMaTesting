@@ -21,9 +21,6 @@ publications:
     icon: "fa-solid fa-square-arrow-up-right"
     link: "https://theconversation.com/coastal-seas-around-new-zealand-are-heading-into-a-marine-heatwave-again-110028"
     text: "Marine heatwaves in Coastal NZ"
-interests:
-  - "Physical Oceanography"
-  - "Climate Modeling"
 ---
 
 Craig Stevens is an oceanographer focused on the ocean’s extrema and how to measure them - the
