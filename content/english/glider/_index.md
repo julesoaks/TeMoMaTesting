@@ -19,7 +19,7 @@ In the meantime, have a look at the following link that show what a glider is an
 ## The Maui Ocean Heat Content Mission
 
 <div class="float-right w-1/3 ml-6 mb-4">
-  <img src="/images/glider/1.png" alt="Glider in the Ocean" class="rounded-lg">
+  <img src="images/glider/1.png" alt="Glider in the Ocean" class="rounded-lg">
   <p class="text-xs text-center italic mt-2">An Ocean Glider.</p>
 </div>
 
@@ -30,7 +30,7 @@ The ocean around Aotearoa New Zealand is warming faster than the average global 
 With the **Maui Ocean Heat Content Mission** we are embarking on a five-year mission to survey the storage of heat around our island nation. We will use ocean gliders - instruments that glide slowly underwater - to map changing seawater temperatures.
 
 <div class="float-left w-1/4 ml-1 mb-1 mr-4">
-  <img src="/images/glider/2.png" alt="Ocean-atmosphere processes" class="rounded-lg">
+  <img src="images/glider/2.png" alt="Ocean-atmosphere processes" class="rounded-lg">
   <p class="text-xs text-center italic mr-4">Connecting the deep ocean to what happens on land.</p>
 </div>
 
@@ -47,7 +47,7 @@ We are a team of scientists, engineers, social researchers and artists supported
 An ocean glider is a 1.5 m long instrument package and works partly like a glider in the air. It has no propeller but unlike an airborne glider it can change its own buoyancy to go up and down in the ocean - as deep as one km.  It then uses small wings to “fly” forward through the water. However, this all happens slowly - ocean gliders move at about one km/hr - much less than walking speed, collecting data as it goes. Every time the glider surfaces it sends these new data back to base via satellite.
 
 <div class="float-right w-1/4 ml-6 mb-4">
-  <img src="/images/glider/3.png" alt="Ocean-atmosphere processes" class="rounded-lg">
+  <img src="images/glider/3.png" alt="Ocean-atmosphere processes" class="rounded-lg">
   <p class="text-xs text-center italic mt-2">Satellite snapshot of surface temperature around NZ.  This can only tell us indirectly about deeper temperatures.</p>
 </div>
 
@@ -66,12 +66,12 @@ The data from the missions will be made openly available to anyone seeking to be
 <div class="flex justify-center items-start gap-12 clear-both w-full my-8">
   
   <div class="w-1/4">
-    <img src="/images/glider/4.png" alt="Glider Deploying" class="rounded-lg w-full">
+    <img src="images/glider/4.png" alt="Glider Deploying" class="rounded-lg w-full">
     <p class="text-xs text-center italic mt-2">ESNZ’s Alice Overend about to deploy an ocean glider.</p>
   </div>
 
   <div class="w-1/4">
-    <img src="/images/glider/5.png" alt="Glider Path Around NZ" class="rounded-lg w-full">
+    <img src="images/glider/5.png" alt="Glider Path Around NZ" class="rounded-lg w-full">
     <p class="text-xs text-center italic mt-2">The entire ocean glider mission around the country is a series of zig-zag paths.</p>
   </div>
 
