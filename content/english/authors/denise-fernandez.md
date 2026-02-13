@@ -3,15 +3,11 @@ title: "Denise Fernandez"
 last_name: "Fernandez"
 designation: "Key Researcher"
 user_groups: "Key Researchers"
-image: "images/team/avatar.png"
-social:
-  - icon: "fa-brands fa-linkedin"
-    link: "https://linkedin.com"
-  - icon: "fa-solid fa-envelope"
-    link: "mailto:jane@example.com"
-interests:
-  - "Physical Oceanography"
-  - "Climate Modeling"
+image: "images/team/denise-fernandez.png"
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque semper, nulla quis varius dignissim, mauris nunc imperdiet eros, quis malesuada ipsum augue vitae orci.
+Dr Denise Fernandez is a physical oceanographer based at Earth Sciences New Zealand (formerly NIWA). She completed her undergraduate studies at Victoria University of Wellington, majoring in geophysics and mathematics, followed by a Masters in Geophysics and then received a PhD in Physical Oceanography from the University of Auckland in 2017.
+
+For the Te Moana Mahana project Denise will investigate how the oxygen content and ocean circulation around New Zealand and in the Southern Ocean are changing in parallel with increasing ocean temperatures.
+
+She is passionate about collecting ocean observations, which has led her to participate in six scientific voyages in the Southwest Pacific Ocean and Antarctica. Denise is one of the Co-PIs for the New Zealand Antarctic Science Platform where she leads the Oceanography component investigating changes in the Antarctic Ocean and global impacts. She also is the New Zealand representative for GO-SHIP, and the point of contact for Biogeochemical Argo New Zealand.
