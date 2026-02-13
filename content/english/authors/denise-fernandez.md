@@ -4,6 +4,16 @@ last_name: "Fernandez"
 designation: "Key Researcher"
 user_groups: "Key Researchers"
 image: "images/team/denise-fernandez.png"
+social:
+  - icon: "fa-solid fa-ship"
+    link: "http://www.go-ship.org/committee.html"
+    text: GO-SHIP
+  - icon: "fa-solid fa-water"
+    link: "https://biogeochemical-argo.org/participating-countries-new-zealand.php"
+    text: "ARGO"
+  - icon: "fa-brands fa-google-scholar"
+    link: "https://scholar.google.com/citations?view_op=list_works&hl=en&hl=en&user=wxLDXGMAAAAJ&pagesize=80&sortby=pubdate"
+    text: "Google Scholar"
 ---
 
 Dr Denise Fernandez is a physical oceanographer based at Earth Sciences New Zealand (formerly NIWA). She completed her undergraduate studies at Victoria University of Wellington, majoring in geophysics and mathematics, followed by a Masters in Geophysics and then received a PhD in Physical Oceanography from the University of Auckland in 2017.
