@@ -12,6 +12,8 @@ In the meantime, have a look at the following link that show what a glider is an
 
 **See the Earth Science New Zealand Page on Ocean Gliders here:** [Ocean Gliders](https://niwa.co.nz/oceans/ocean-gliders)
 
+Additionally, you can take a look at the information on the **Maui Ocean Heat Content Mission** below the map.
+
 <div class="glider-map-glass">
   {{< glider-map >}}
 </div>
@@ -30,7 +32,7 @@ The ocean around Aotearoa New Zealand is warming faster than the average global 
 With the **Maui Ocean Heat Content Mission** we are embarking on a five-year mission to survey the storage of heat around our island nation. We will use ocean gliders - instruments that glide slowly underwater - to map changing seawater temperatures.
 
 <div class="float-left w-1/4 ml-1 mb-1 mr-4">
-  <img src="/images/oceanAtmosProc.png" alt="Ocean-atmosphere processes" class="rounded-lg">
+  {{< image src="images/oceanAtmosProc.png" alt="Ocean-atmosphere processes" class="rounded-lg" >}}
   <p class="text-xs text-center italic mr-4">Connecting the deep ocean to what happens on land.</p>
 </div>
 
@@ -47,13 +49,13 @@ We are a team of scientists, engineers, social researchers and artists supported
 An ocean glider is a 1.5 m long instrument package and works partly like a glider in the air. It has no propeller but unlike an airborne glider it can change its own buoyancy to go up and down in the ocean - as deep as one km.  It then uses small wings to “fly” forward through the water. However, this all happens slowly - ocean gliders move at about one km/hr - much less than walking speed, collecting data as it goes. Every time the glider surfaces it sends these new data back to base via satellite.
 
 <div class="float-right w-1/4 ml-6 mb-4">
-  <img src="/images/sstPlot.png" alt="Plot of Sea surface temperature" class="rounded-lg">
-  <p class="text-xs text-center italic mt-2">Satellite snapshot of surface temperature around NZ.  This can only tell us indirectly about deeper temperatures.</p>
+  {{< image src="images/sstPlot.png" alt="Plot of Sea surface temperature" class="rounded-lg" >}}
+  <p class="text-xs text-center italic mt-2">Satellite snapshot of surface temperature around NZ. This can only tell us indirectly about deeper temperatures.</p>
 </div>
 
 ### What are we measuring?
 
-During the **Maui Ocean Heat Content Mission** the ocean glider will measure the temperature and salinity of the seawater, as well as quantities like dissolved oxygen and amount of sunlight in the water.  The glider doesn’t measure anything to do with the seabed; it doesn’t count fish; and it doesn’t take photos. It also moves so slowly that it is not a hazard to marine life or vessels.
+During the **Maui Ocean Heat Content Mission** the ocean glider will measure the temperature and salinity of the seawater, as well as quantities like dissolved oxygen and amount of sunlight in the water. The glider doesn’t measure anything to do with the seabed; it doesn’t count fish; and it doesn’t take photos. It also moves so slowly that it is not a hazard to marine life or vessels.
 
 ### Where will the mission go?
 
@@ -66,12 +68,12 @@ The data from the missions will be made openly available to anyone seeking to be
 <div class="flex justify-center items-start gap-12 clear-both w-full my-8">
   
   <div class="w-1/4">
-    <img src="/images/gliderDeploy.png" alt="Glider Deploying" class="rounded-lg w-full">
+    {{< image src="images/gliderDeploy.png" alt="Glider Deploying" class="rounded-lg w-full" >}}
     <p class="text-xs text-center italic mt-2">ESNZ’s Alice Overend about to deploy an ocean glider.</p>
   </div>
 
   <div class="w-1/4">
-    <img src="/images/gliderPath.png" alt="Glider Path Around NZ" class="rounded-lg w-full">
+    {{< image src="images/gliderPath.png" alt="Glider Path Around NZ" class="rounded-lg w-full" >}}
     <p class="text-xs text-center italic mt-2">The entire ocean glider mission around the country is a series of zig-zag paths.</p>
   </div>
 
