@@ -2,7 +2,7 @@
 title: "About the Project"
 meta_title: "About"
 description: ""
-image: "images/teamPhoto.png"
+image: "images/team/teamPhoto.png"
 partners:
   statement: ""
   list:
@@ -59,7 +59,7 @@ supporting_orgs:
       logo: "images/orgs/ur.png"
 about_sections:
   - title: "Ocean at the Edge"
-    image: "images/mitaOcean-small.png"
+    image: "images/gallery/mitaOcean.png"
     content: |
       This project investigates where and why our regional oceans are warming. By integrating satellite data, robotic floats, and shipboard surveys with the innovative BlueMaps data assimilation technique, the project will map heat in the region and the connection between the deep and coastal oceans.
       
@@ -69,7 +69,7 @@ about_sections:
 
       - **Coastal Ocean Temperatures:** Developing a high-resolution coastal reanalysis from the Maui glider surveys and data collected from fishing vessels (collected by the Mangōpare programme) to identify the coastal “heatscape”.
   - title: "Ocean of the Future"
-    image: "images/boatOcean-small.png"
+    image: "images/gallery/boatOcean.png"
     content: |
      This project brings global climate information to the finer scales needed for decisions in Aotearoa New Zealand.
     
@@ -81,7 +81,7 @@ about_sections:
       
       - **Coupled Weather Modeling of storm and coastal ocean interactions:** Simulating the interaction between the atmosphere and a warming ocean at scales under 100km to understand how ocean heat strengthens “atmospheric rivers,” tropical cyclones, and extreme rainfall and how evolving coastal temperatures during a storm can modify the severity and path of weather events as they make landfall.
   - title: "Ocean Impacts"
-    image: "images/planeOcean-small.png"
+    image: "images/gallery/planeOcean.png"
     content: |
      This initiative examines how shifts in ocean physics—such as warming and freshwater runoff—alter the oxygen and nutrients in our ocean that underpin biological health. 
 
@@ -93,7 +93,7 @@ about_sections:
 
       - **Impacts of Extreme Events in the Coastal Ocean:** Impacts of weather events will be investigated in detail in two coastal areas, the Hauraki Gulf and the Otago Shelf, with new measurements and high-resolution, numerical simulations of the ocean physical and biogeochemical properties.
   - title: "Ocean Connections"
-    image: "images/whatipuOcean-small.png"
+    image: "images/gallery/whatipuOcean.png"
     content: |
       This project connects the ocean and atmosphere to societal values and experiences to enhance resource management and decision-making at local, regional and national scales.
 

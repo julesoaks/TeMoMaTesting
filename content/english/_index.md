@@ -3,7 +3,7 @@
 banner:
   title: "Welcome to Te Moana Mahana"
   content: "Ocean change forecasting for climate resilience in Aotearoa"
-  image: "/images/mitaBay-small.png"
+  image: "/images/gallery/mitaBay.png"
   button:
     enable: true
     link: "blog"
@@ -12,7 +12,7 @@ banner:
 # Features (Repurposed for Stats and About sections)
 features:
   - title: "About the Project"
-    image: "/images/teamPhoto.png" # You can add a relevant image here
+    image: "/images/team/teamPhoto.png" # You can add a relevant image here
     content:
       "Oceans affect everything in New Zealand – from  local weather to the productivity of our industries.
       <br></br>  

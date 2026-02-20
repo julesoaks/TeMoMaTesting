@@ -1,9 +1,9 @@
 #################### default parameters ############################
 # favicon module: https://github.com/gethugothemes/hugo-modules/tree/master/images#favicon-implementation
-favicon = "images/favicon-v5.png"
+favicon = "images/logo-v8-favicon.png"
 # logo module: https://github.com/gethugothemes/hugo-modules/tree/master/images#logo-implementation
-logo = "images/logo-light-v5.png"
-logo_darkmode = "images/logo-dark-v5.png"
+logo = "images/logo-v8.png"
+logo_darkmode = "images/logo-v8-dark.png"
 # use `px` or `x` with logo_width, example: "100px".
 # Note: logo_width is not work with .svg file
 logo_width = "160px"

@@ -3,15 +3,9 @@ title: "Jasmin McInerney"
 last_name: "McInerney"
 designation: "Glider Operations"
 user_groups: "Glider Operations"
-image: "images/team/avatar.png"
-social:
-  - icon: "fa-brands fa-linkedin"
-    link: "https://linkedin.com"
-  - icon: "fa-solid fa-envelope"
-    link: "mailto:joe@example.com"
-interests:
-  - "Physical Oceanography"
-  - "Climate Modeling"
+image: "images/team/jasmin-mcinerney.png"
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque semper, nulla quis varius dignissim, mauris nunc imperdiet eros, quis malesuada ipsum augue vitae orci.
+Jasmin is the leader of the Earth Sciences New Zealand glider team.
+
+Observing the ocean is what Jasmin does best.  She has been operating autonomous underwater gliders for ten years around Aotearoa New Zealand and around the world. When not at work you can find Jasmin connecting with the moana through waka ama. 

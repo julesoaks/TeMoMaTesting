@@ -1,0 +1,69 @@
+<style>
+  #noaaMap img.leaflet-tile {
+    max-width: none !important;
+    max-height: none !important;
+    padding: 0 !important;
+  }
+  .map-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+  }
+  #noaaMap {
+    height: 600px;
+    width: 100%;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  }
+</style>
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+<div class="map-container">
+  <div id="noaaMap"></div>
+</div>
+
+<script>
+  (function() {
+      document.addEventListener("DOMContentLoaded", function() {
+          const map = L.map('noaaMap', {
+              crs: L.CRS.EPSG4326, 
+              center: [-41.27, 173.28],
+              zoom: 3
+          });
+
+          const baseUrl = 'https://coastwatch.noaa.gov/erddap/wms/noaacrwsstanomalyDaily/request?';
+
+          // 1. SST Anomaly (Bottom Layer)
+          L.tileLayer.wms(baseUrl, {
+              layers: 'noaacrwsstanomalyDaily:sea_surface_temperature_anomaly',
+              format: 'image/png',
+              transparent: true,
+              version: '1.1.1',
+              time: 'current',
+              attribution: 'NOAA CRW'
+          }).addTo(map);
+
+          // 2. Land Layer (Middle Layer)
+          L.tileLayer.wms(baseUrl, {
+              layers: 'Land', 
+              format: 'image/png',
+              transparent: true,
+              version: '1.1.1',
+              attribution: 'NOAA Land'
+          }).addTo(map);
+
+          // 3. National Boundaries (Top Layer)
+          L.tileLayer.wms(baseUrl, {
+              layers: 'Lakes and Rivers', 
+              format: 'image/png',
+              transparent: true,
+              version: '1.1.1',
+              attribution: 'Boundaries'
+          }).addTo(map);
+      });
+  })();
+</script>
